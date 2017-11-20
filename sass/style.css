@@ -1,3 +1,81 @@
+.robo13 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: regular;
+  font-size: 13px;
+  letter-spacing: 0.2px; }
+
+.mont8 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  font-size: 8px;
+  letter-spacing: 0.2px; }
+
+.mont10R {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  font-size: 10px;
+  letter-spacing: 0.2px; }
+
+.mont10B {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.2px; }
+
+.mont11 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.2px; }
+
+.mont12L {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size: 12px;
+  letter-spacing: 0.2px; }
+
+.mont12B {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.2px; }
+
+.mont13 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  font-size: 13px;
+  letter-spacing: 0.2px; }
+
+.mont14R {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  font-size: 14px;
+  letter-spacing: 0.2px; }
+
+.mont14B {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px; }
+
+.mont15 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: regular;
+  font-size: 15px;
+  letter-spacing: 0.2px; }
+
+.mont30L {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: light;
+  font-size: 30px;
+  letter-spacing: 0.2px; }
+
+.mont30B {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.2px; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -138,82 +216,9 @@ table {
 .grades {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
 
-.robo13 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: regular;
-  font-size: 13px;
-  letter-spacing: 0.2px; }
-
-.mont8 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: regular;
-  font-size: 8px;
-  letter-spacing: 0.2px; }
-
-.mont10R {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: regular;
-  font-size: 10px;
-  letter-spacing: 0.2px; }
-
-.mont10B {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 10px;
-  letter-spacing: 0.2px; }
-
-.mont11 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 11px;
-  letter-spacing: 0.2px; }
-
-.mont12L {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: light;
-  font-size: 12px;
-  letter-spacing: 0.2px; }
-
-.mont12B {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: 0.2px; }
-
-.mont13 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: regular;
-  font-size: 13px;
-  letter-spacing: 0.2px; }
-
-.mont14R {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: regular;
-  font-size: 14px;
-  letter-spacing: 0.2px; }
-
-.mont14B {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.2px; }
-
-.mont15 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: regular;
-  font-size: 15px;
-  letter-spacing: 0.2px; }
-
-.mont30L {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: light;
-  font-size: 30px;
-  letter-spacing: 0.2px; }
-
-.mont30B {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 0.2px; }
+.blueDivider {
+  background-color: #6291a9;
+  width: 80%;
+  padding: 1px; }
 
 /*# sourceMappingURL=style.css.map */
