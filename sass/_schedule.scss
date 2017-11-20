@@ -1,3 +1,25 @@
 .schedule{
     background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
 }
+.listView {
+  h3 {
+    color: $seaBlue;
+  }
+  h4 {
+    @extend .mont12B;
+    }
+    p {
+      @extend .mont15;
+    }
+  }
+  .calendarView {
+    h5 {
+      @extend .mont10R;
+    }
+    p {
+      @extend .mont8;
+    }
+    .calendarCourse {
+      @extend .mont10R;
+    }
+  }
