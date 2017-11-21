@@ -228,6 +228,13 @@ table {
 
 .infoNav {
   background-color: #1b3c50;
-  color: #f7f7f7; }
+  color: #f7f7f7;
+  display: inline-block;
+  float: left;
+  height: 600px;
+  margin-right: 1%; }
+
+.currentSchedule {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,4 +6,11 @@
 .infoNav {
    background-color: $darkBlue;
    color: $offWhite;
+   display: inline-block;
+   float: left;
+   height: 600px;
+   margin-right: 1%;
+}
+.currentSchedule {
+  display: inline-block;
 }
