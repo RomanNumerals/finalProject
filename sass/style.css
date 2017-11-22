@@ -223,11 +223,10 @@ table {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
 
 .mainContain {
-  background-color: #f7f7f7;
-  height: 94%;
-  width: 95%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  position: fixed; }
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  height: 90%;
+  width: 98%;
+  margin: 2% 2% 2% 2%; }
 
 .listView h3 {
   color: #48a2ba; }
@@ -276,9 +275,10 @@ table {
   border: solid 2px #50e3c2; }
 
 .schedule {
-  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
-  height: 90%;
-  width: 98%;
-  margin: 2% 2% 2% 2%; }
+  background-color: #f7f7f7;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed; }
 
 /*# sourceMappingURL=style.css.map */
