@@ -15,13 +15,18 @@
    aside {
      h1 {
        text-align: center;
-       margin: 5% 5% 5% 5%;
+       margin: 10% 2% 15% 0%;
      }
      h2 {
+       line-height: 3;
        text-align: left;
+       margin-left: 10%;
      }
      ul {
        text-align: center;
+       line-height: 3;
+       text-align: left;
+       margin-left: 20%
      }
    }
 }
@@ -29,6 +34,7 @@
   display: inline-block;
 }
 .selfie {
+  margin: 20% 2% 5% 20%;
   width: 150px;
   height: 150px;
   border-radius: 60%;
