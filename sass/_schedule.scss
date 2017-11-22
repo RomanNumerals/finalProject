@@ -1,5 +1,9 @@
-.schedule{
-    background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+.mainContain{
+  background-color: $offWhite;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed;
 }
 .listView {
   h3 {
@@ -23,3 +27,6 @@
       @extend .mont10R;
     }
   }
+.hide {
+  display: none;
+}
