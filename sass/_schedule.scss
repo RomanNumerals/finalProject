@@ -29,3 +29,13 @@
 .hide {
     display: none;
 }
+.date {
+  @extend .mont10B;
+  margin-left: 90%;
+  line-height: 2;
+}
+.logOut {
+  @extend .mont10R;
+  margin-left: 90%;
+  line-height: 2;
+}

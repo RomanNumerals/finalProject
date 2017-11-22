@@ -2,72 +2,140 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="sass/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
-    <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="sass/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
+  <title></title>
 </head>
 
 <body class="mainContain">
-    <section class="schedule">
-        <section class="infoNav">
-            <aside>
-                <img class="selfie" src="pictures/henrietta.jpg"></img>
-                <h1 class="mont15">Henrietta Schmidtt</h1>
-                <h2 class="mont11">ACADEMIC SERVICES</h2>
-                <ul class="mont13">
-                    <li>Current Schedule</li>
-                    <li>Grades &amp; Reporting</li>
-                    <li>Upcoming Courses</li>
-                </ul>
-                <h2 class="mont11">COLLEGE INFORMATION</h2>
-                <ul class="mont13">
-                    <li>College Calendar</li>
-                    <li>Financial Aid</li>
-                    <li>Student Services</li>
-                </ul>
-            </aside>
-        </section>
-        <header>
-            <nav>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </nav>
-            <div class="mont10B">DATE</div>
-            <div class="mont10R">LOG OUT</div>
-        </header>
-        <div class="blueDivider"></div>
-        <!--This section below is divided so as to begin flexbox and is fixed in position-->
-        <section class="mainSection">
-            <div class="programStanding">
-                <div>
-                    <h3 class="mont12B">CURRENT PROGRAM:</h3>
-                    <p class="mont15">Computer Software Engineering Technology</p>
-                </div>
-                <div>
-                    <h3 class="mont12B">CURRENT SEMESTER:</h3>
-                    <p class="mont15">Fall 2017</p>
-                </div>
-                <div>
-                    <h3 class="mont12B">ENROLLED CREDIT HOURS:</h3>
-                    <p class="mont15">15</p>
-                </div>
-                <div>
-                    <h3 class="mont12B">ACADEMIC STANDING:</h3>
-                    <p class="mont15">Good</p>
-                </div>
-            </div>
-        </section>
-        <div class="blueDivider"></div>
-        <!--This section is for the start of the schedule-->
-        <div class="mont10B">
-            <h3>View as:</h3>
-            <p>List</p>
-            <span>|</span>
-            <p>Calendar(on click for this view below)</p>
+  <section class="schedule">
+    <section class="infoNav">
+      <aside>
+        <img class="selfie" src="pictures/henrietta.jpg"></img>
+        <h1 class="mont15">Henrietta Schmidtt</h1>
+        <h2 class="mont11">ACADEMIC SERVICES</h2>
+        <ul class="mont13">
+          <li>Current Schedule</li>
+          <li>Grades &amp; Reporting</li>
+          <li>Upcoming Courses</li>
+        </ul>
+        <h2 class="mont11">COLLEGE INFORMATION</h2>
+        <ul class="mont13">
+          <li>College Calendar</li>
+          <li>Financial Aid</li>
+          <li>Student Services</li>
+        </ul>
+      </aside>
+    </section>
+    <header>
+      <nav>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+      </nav>
+      <div class="date">DATE</div>
+      <div>
+      <div class="logOut">LOG OUT</div>
+
+    </div>
+    </header>
+    <div class="blueDivider"></div>
+
+    <!--This section below is divided so as to begin flexbox and is fixed in position-->
+    <section class="mainSection">
+      <div class="programStanding">
+        <div>
+          <h3 class="mont12B">CURRENT PROGRAM:</h3>
+          <p class="mont15">Computer Software Engineering Technology</p>
+        </div>
+        <div>
+          <h3 class="mont12B">CURRENT SEMESTER:</h3>
+          <p class="mont15">Fall 2017</p>
+        </div>
+        <div>
+          <h3 class="mont12B">ENROLLED CREDIT HOURS:</h3>
+          <p class="mont15">15</p>
+        </div>
+        <div>
+          <h3 class="mont12B">ACADEMIC STANDING:</h3>
+          <p class="mont15">Good</p>
+        </div>
+      </div>
+    </section>
+    <div class="blueDivider"></div>
+    <!--This section is for the start of the schedule-->
+    <div class="mont10B">
+      <h3>View as:</h3>
+      <p>List</p>
+      <span>|</span>
+      <p>Calendar(on click for this view below)</p>
+    </div>
+    <div class="listView">
+      <h3>CURRENT SCHEDULE</h3>
+      <h4>CSET 105, M, 12:00 - 4:30pm</h4>
+      <p>Intro to Web Applications</p>
+      <h4>CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30 - 4:30pm</h4>
+      <p>Web Development I</p>
+      <h4>CSET 115, R, 12:00pm - 4:30pm</h4>
+      <p>Technical Requirements &amp; Data Structures</p>
+      <h4>CSET 120, F, 12:00pm - 4:30pm</h4>
+      <p>Software Project I/Open Lab</p>
+      <h4>ENGL 100, M &amp; W, 8am - 9:30am</h4>
+      <p>English Composition</p>
+      <h4>Math 100, T &amp; R, 8am - 9:30pm</h4>
+      <p>College Algebra</p>
+    </div>
+    <!--This section below is for the calendar view, subject to change. Split into 5 divs for flexbox-->
+    <section class="calendarView hide">
+      <div>
+        <h5>Monday</h5>
+        <div>
+          <p>ENGL 101, 8:00 - 9:30AM</p>
+          <p class="calendarCourse">English Composition</p>
+        </div>
+        <div>
+          <p>CSET 105, 12:00 - 4:30PM</p>
+          <p class="calendarCourse">Intro to Web</p>
+          <p class="calendarCourse">Applications</p>
+        </div>
+      </div>
+      <div>
+        <h5>Tuesday</h5>
+        <div>
+          <p>MATH 100, 8:00 - 9:30AM</p>
+          <p class="calendarCourse">College Alegebra</p>
+        </div>
+        <div>
+          <p>CSET 110, 12 - 4:30PM</p>
+          <p class="calendarCourse">Web Development I</p>
+        </div>
+      </div>
+      <div>
+        <h5>Wednesday</h5>
+        <div>
+          <p>ENGL 101, 8:00 - 9:30AM</p>
+          <p class="calendarCourse">English Composition</p>
+        </div>
+        <div>
+          <p>CSET 110, 12:30 - 4:30PM</p>
+          <p class="calendarCourse">Web Development I</p>
+        </div>
+      </div>
+      <div>
+        <h5>Thursday</h5>
+        <div>
+          <p>MATH 100, 8:00 - 9:30AM</p>
+          <p class="calendarCourse">College Algebra</p>
+        </div>
+        <div>
+          <p>CSET 115</p>
+          <p class="calendarCourse">Technical</p>
+          <p class="calendarCourse">Requirements &amp; Data</p>
+          <p class="calendarCourse">Structures</p>
         </div>
         <div class="listView">
             <h3>CURRENT SCHEDULE</h3>

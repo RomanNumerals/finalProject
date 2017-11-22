@@ -10,13 +10,13 @@
   font-size: 8px;
   letter-spacing: 0.2px; }
 
-.mont10R, .calendarView h5, .calendarView .calendarCourse {
+.mont10R, .calendarView h5, .calendarView .calendarCourse, .logOut {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 10px;
   letter-spacing: 0.2px; }
 
-.mont10B {
+.mont10B, .date {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 10px;
@@ -225,6 +225,14 @@ table {
 
 .hide {
   display: none; }
+
+.date {
+  margin-left: 90%;
+  line-height: 2; }
+
+.logOut {
+  margin-left: 90%;
+  line-height: 2; }
 
 .grades {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
