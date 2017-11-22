@@ -5,27 +5,27 @@
   margin:2% 2% 2% 2%;
 }
 .listView {
-  h3 {
-    color: $seaBlue;
-  }
-  h4 {
-    @extend .mont12B;
+    h3 {
+        color: $seaBlue;
+    }
+    h4 {
+        @extend .mont12B;
     }
     p {
-      @extend .mont15;
+        @extend .mont15;
     }
-  }
-  .calendarView {
+}
+.calendarView {
     h5 {
-      @extend .mont10R;
+        @extend .mont10R;
     }
     p {
-      @extend .mont8;
+        @extend .mont8;
     }
     .calendarCourse {
-      @extend .mont10R;
+        @extend .mont10R;
     }
-  }
+}
 .hide {
-  display: none;
+    display: none;
 }
