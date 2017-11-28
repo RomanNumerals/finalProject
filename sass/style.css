@@ -34,11 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-<<<<<<< HEAD
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .listView h4 {
-=======
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4 {
->>>>>>> cdb3335abdb81d51a96183c053b8de76e05ed517
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -254,7 +250,7 @@ table {
     color: #48a2ba; }
   .index .scrolling h4 {
     color: #59aac0; }
-  .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
+  .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
     color: #202020; }
   .index .scrolling .robo13 {
     color: #373737;
