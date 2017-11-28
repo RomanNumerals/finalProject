@@ -4,30 +4,66 @@
   width: 98%;
   margin:2% 2% 2% 2%;
 }
-.listView {
+.schedule {
+  .blueDivider {
+    margin: 1% 0 2% 24%;
+
+  }
+  .mainSection {
+    padding: 2%;
+  }
+  .programStanding {
+
+  }
+  .currentProgram {
+    line-height: 1.5;
+    margin-bottom: 5%;
     h3 {
-        color: $seaBlue;
+      @extend .mont12B;
+      color:$seaBlue;
     }
-    h4 {
-        @extend .mont12B;
+  }
+  .studentInfo {
+    display: inline-flex;
+    div {
+      padding-right: 60px;
+    }
+    h3 {
+      @extend .mont12B;
     }
     p {
-        @extend .mont15;
+      @extend .mont15;
     }
+  }
+}
+.listView {
+  margin-left: 26%;
+  h3 {
+    color: $seaBlue;
+    margin-bottom: 2%;
+  }
+  h4 {
+    @extend .mont12B;
+    line-height: 2;
+  }
+  p {
+    @extend .mont15;
+    margin-bottom: 2%;
+  }
 }
 .calendarView {
-    h5 {
-        @extend .mont10R;
-    }
-    p {
-        @extend .mont8;
-    }
-    .calendarCourse {
-        @extend .mont10R;
-    }
+  h5 {
+    @extend .mont10R;
+  }
+  p {
+    @extend .mont8;
+  }
+  .calendarCourse {
+    @extend .mont10R;
+  }
 }
 .hide {
-    display: none;
+  display: none;
 }
 .date {
   @extend .mont10B;
@@ -38,4 +74,17 @@
   @extend .mont10R;
   margin-left: 90%;
   line-height: 2;
+  color: $seaBlue;
+}
+.viewAs {
+  @extend .mont10B;
+  display: flex;
+  margin-left: 80%;
+  h3 {
+    margin-right: 5%;
+  }
+  span {
+    margin: 0 5% 0 5%;
+  }
+
 }
