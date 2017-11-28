@@ -54,12 +54,26 @@
 .calendarView {
   h5 {
     @extend .mont10R;
+    text-align: center;
   }
   p {
     @extend .mont8;
+    text-align: center;
   }
   .calendarCourse {
     @extend .mont10R;
+  }
+  .calFlex {
+    display: flex;
+    height: 400px;
+    margin: 5% 0 0 29%;
+  }
+  .calDay {
+    background-color: rgba(47, 207, 186, 0.15);
+    div {
+      background-color: $darkBlue;
+      color: $offWhite;
+    }
   }
 }
 .hide {

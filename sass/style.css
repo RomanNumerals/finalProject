@@ -289,6 +289,20 @@ table {
   .listView p {
     margin-bottom: 2%; }
 
+.calendarView h5 {
+  text-align: center; }
+.calendarView p {
+  text-align: center; }
+.calendarView .calFlex {
+  display: flex;
+  height: 400px;
+  margin: 5% 0 0 29%; }
+.calendarView .calDay {
+  background-color: rgba(47, 207, 186, 0.15); }
+  .calendarView .calDay div {
+    background-color: #1b3c50;
+    color: #f7f7f7; }
+
 .hide {
   display: none; }
 
