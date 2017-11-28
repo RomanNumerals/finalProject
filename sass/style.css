@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .listView h4 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .listView h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -211,17 +211,50 @@ table {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: fixed; }
   .index header {
-    display: inline-flex;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    justify-content: space-between; }
+    display: flex;
+    padding: 30px 0 30px 0; }
+    .index header nav {
+      margin-left: 2%; }
+      .index header nav a {
+        text-decoration: none; }
+    .index header div {
+      padding-left: 80%;
+      text-align: right; }
   .index .blueDivider {
     margin-left: 25%;
     width: 70%; }
+  .index .mainSection .cset {
+    margin-left: 2%;
+    padding: 25px 0 25px 0;
+    line-height: 1.5; }
+    .index .mainSection .cset h3 {
+      color: #48a2ba; }
+    .index .mainSection .cset p {
+      color: #202020; }
   .index .mainSection .csetStatus {
-    display: block; }
-    .index .mainSection .csetStatus div {
+    display: block;
+    line-height: 1.5; }
+    .index .mainSection .csetStatus .current {
+      display: inline-block;
+      padding: 0 80px 30px 10px; }
+    .index .mainSection .csetStatus .hours {
+      display: inline-block;
+      padding-right: 80px; }
+    .index .mainSection .csetStatus .standing {
       display: inline-block; }
+    .index .mainSection .csetStatus h3 {
+      color: #2e0a3a; }
+    .index .mainSection .csetStatus p {
+      color: #202020; }
+  .index .scrolling h3 {
+    color: #48a2ba; }
+  .index .scrolling h4 {
+    color: #59aac0; }
+  .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
+    color: #202020; }
+  .index .scrolling .robo13 {
+    color: #373737;
+    line-height: 1.5; }
 
 .courses {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
