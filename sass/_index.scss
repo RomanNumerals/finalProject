@@ -4,4 +4,36 @@
     width: 95%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: fixed;
+    header {
+        display: inline-flex;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    .blueDivider {
+        margin-left: 25%;
+        width: 70%;
+    }
+    .mainSection {
+        .cset {
+            h3 {
+                @extend .mont12B;
+            }
+            p {
+                @extend .mont15;
+            }
+        }
+        .csetStatus {
+            display: block;
+            div {
+                display: inline-block;
+            }
+            h3 {
+                @extend .mont12B;
+            }
+            p {
+                @extend .mont15;
+            }
+        }
+    }
 }

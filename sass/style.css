@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .listView h4 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .listView h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +58,7 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .listView p {
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .listView p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -210,6 +210,18 @@ table {
   width: 95%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: fixed; }
+  .index header {
+    display: inline-flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: space-between; }
+  .index .blueDivider {
+    margin-left: 25%;
+    width: 70%; }
+  .index .mainSection .csetStatus {
+    display: block; }
+    .index .mainSection .csetStatus div {
+      display: inline-block; }
 
 .courses {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
@@ -268,7 +280,8 @@ table {
   display: inline-block; }
 
 .selfie {
-  margin: 20% 2% 5% 20%;
+  margin-left: 15%;
+  margin-top: 20%;
   width: 150px;
   height: 150px;
   border-radius: 60%;
