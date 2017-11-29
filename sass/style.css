@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -278,6 +278,8 @@ table {
   display: inline-flex; }
   .schedule .studentInfo div {
     padding-right: 60px; }
+  .schedule .studentInfo h3 {
+    color: #2e0a3a; }
 
 .listView {
   margin-left: 26%; }
@@ -289,19 +291,38 @@ table {
   .listView p {
     margin-bottom: 2%; }
 
+.calendarView h3 {
+  color: #48a2ba;
+  margin-bottom: 2%; }
 .calendarView h5 {
   text-align: center; }
 .calendarView p {
   text-align: center; }
 .calendarView .calFlex {
   display: flex;
-  height: 400px;
-  margin: 5% 0 0 29%; }
+  height: 400px; }
 .calendarView .calDay {
+  width: 18%;
+  margin-right: 1%;
   background-color: rgba(47, 207, 186, 0.15); }
   .calendarView .calDay div {
     background-color: #1b3c50;
     color: #f7f7f7; }
+  .calendarView .calDay h5 {
+    margin: 15px; }
+  .calendarView .calDay .classOne {
+    padding: 15%;
+    margin-bottom: 80%; }
+  .calendarView .calDay .classOneW {
+    padding: 15%;
+    margin-bottom: 95%; }
+  .calendarView .calDay .classTwo {
+    padding: 40px; }
+  .calendarView .calDay .classTwoW {
+    padding: 30px; }
+  .calendarView .calDay .classTwoF {
+    margin-top: 133%;
+    padding: 20%; }
 
 .hide {
   display: none; }

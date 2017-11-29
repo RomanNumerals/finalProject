@@ -30,6 +30,7 @@
     }
     h3 {
       @extend .mont12B;
+      color: $ashPurp;
     }
     p {
       @extend .mont15;
@@ -52,6 +53,11 @@
   }
 }
 .calendarView {
+  h3 {
+    @extend .mont12B;
+    color: $seaBlue;
+    margin-bottom: 2%;
+  }
   h5 {
     @extend .mont10R;
     text-align: center;
@@ -66,13 +72,35 @@
   .calFlex {
     display: flex;
     height: 400px;
-    margin: 5% 0 0 29%;
   }
   .calDay {
+    width: 18%;
+    margin-right: 1%;
     background-color: rgba(47, 207, 186, 0.15);
     div {
       background-color: $darkBlue;
       color: $offWhite;
+    }
+    h5 {
+      margin: 15px;
+    }
+    .classOne {
+      padding: 15%;
+      margin-bottom: 80%;
+    }
+    .classOneW {
+      padding: 15%;
+      margin-bottom: 95%;
+    }
+    .classTwo {
+      padding: 40px;
+    }
+    .classTwoW {
+      padding: 30px;
+    }
+    .classTwoF {
+      margin-top: 133%;
+      padding: 20%;
     }
   }
 }
