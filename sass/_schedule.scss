@@ -30,6 +30,7 @@
     }
     h3 {
       @extend .mont12B;
+      color: $ashPurp;
     }
     p {
       @extend .mont15;
@@ -52,14 +53,86 @@
   }
 }
 .calendarView {
+  h3 {
+    @extend .mont12B;
+    color: $seaBlue;
+    margin-bottom: 2%;
+  }
   h5 {
     @extend .mont10R;
+    text-align: center;
   }
   p {
     @extend .mont8;
+    text-align: center;
   }
   .calendarCourse {
     @extend .mont10R;
+  }
+  .calFlex {
+    display: flex;
+    height: 400px;
+  }
+  .calDay {
+    width: 18%;
+    margin-right: 1%;
+    margin-bottom: -2%;
+    background-color: rgba(47, 207, 186, 0.15);
+    div {
+      background-color: $darkBlue;
+      color: $offWhite;
+    }
+    h5 {
+      margin: 15px;
+    }
+    .classOne {
+      height: 15%;
+      margin-bottom: 70%;
+      p {
+        padding: 5%
+      }
+    }
+    .classOneW {
+      height: 15%;
+      margin-bottom: 82%;
+      p {
+        padding: 5%;
+      }
+    }
+    .classOneF{
+      background-color: rgba(213, 251, 246, 0.15);
+      height: 15%;
+      margin-bottom: 70%;
+    }
+    .classTwo {
+      height: 40%;
+      p {
+        padding-top: 30%;
+        line-height: 2;
+      }
+      .calendarCourse {
+        padding-top: 0;
+      }
+    }
+    .classTwoW {
+      height: 35%;
+      p {
+        padding-top: 20%;
+      }
+      .calendarCourse {
+        padding: 5%;
+      }
+    }
+    .classTwoF {
+      height: 40%;
+      p {
+        padding-top: 30%;
+        line-height: 2;
+      }
+      .calendarCourse {
+        padding-top: 0;
+      }
+    }
   }
 }
 .hide {
