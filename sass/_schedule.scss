@@ -76,6 +76,7 @@
   .calDay {
     width: 18%;
     margin-right: 1%;
+    margin-bottom: -2%;
     background-color: rgba(47, 207, 186, 0.15);
     div {
       background-color: $darkBlue;
@@ -85,22 +86,52 @@
       margin: 15px;
     }
     .classOne {
-      padding: 15%;
-      margin-bottom: 80%;
+      height: 15%;
+      margin-bottom: 70%;
+      p {
+        padding: 5%
+      }
     }
     .classOneW {
-      padding: 15%;
-      margin-bottom: 95%;
+      height: 15%;
+      margin-bottom: 82%;
+      p {
+        padding: 5%;
+      }
+    }
+    .classOneF{
+      background-color: rgba(213, 251, 246, 0.15);
+      height: 15%;
+      margin-bottom: 70%;
     }
     .classTwo {
-      padding: 40px;
+      height: 40%;
+      p {
+        padding-top: 30%;
+        line-height: 2;
+      }
+      .calendarCourse {
+        padding-top: 0;
+      }
     }
     .classTwoW {
-      padding: 30px;
+      height: 35%;
+      p {
+        padding-top: 20%;
+      }
+      .calendarCourse {
+        padding: 5%;
+      }
     }
     .classTwoF {
-      margin-top: 133%;
-      padding: 20%;
+      height: 40%;
+      p {
+        padding-top: 30%;
+        line-height: 2;
+      }
+      .calendarCourse {
+        padding-top: 0;
+      }
     }
   }
 }

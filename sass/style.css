@@ -304,6 +304,7 @@ table {
 .calendarView .calDay {
   width: 18%;
   margin-right: 1%;
+  margin-bottom: -2%;
   background-color: rgba(47, 207, 186, 0.15); }
   .calendarView .calDay div {
     background-color: #1b3c50;
@@ -311,18 +312,39 @@ table {
   .calendarView .calDay h5 {
     margin: 15px; }
   .calendarView .calDay .classOne {
-    padding: 15%;
-    margin-bottom: 80%; }
+    height: 15%;
+    margin-bottom: 70%; }
+    .calendarView .calDay .classOne p {
+      padding: 5%; }
   .calendarView .calDay .classOneW {
-    padding: 15%;
-    margin-bottom: 95%; }
+    height: 15%;
+    margin-bottom: 82%; }
+    .calendarView .calDay .classOneW p {
+      padding: 5%; }
+  .calendarView .calDay .classOneF {
+    background-color: rgba(213, 251, 246, 0.15);
+    height: 15%;
+    margin-bottom: 70%; }
   .calendarView .calDay .classTwo {
-    padding: 40px; }
+    height: 40%; }
+    .calendarView .calDay .classTwo p {
+      padding-top: 30%;
+      line-height: 2; }
+    .calendarView .calDay .classTwo .calendarCourse {
+      padding-top: 0; }
   .calendarView .calDay .classTwoW {
-    padding: 30px; }
+    height: 35%; }
+    .calendarView .calDay .classTwoW p {
+      padding-top: 20%; }
+    .calendarView .calDay .classTwoW .calendarCourse {
+      padding: 5%; }
   .calendarView .calDay .classTwoF {
-    margin-top: 133%;
-    padding: 20%; }
+    height: 40%; }
+    .calendarView .calDay .classTwoF p {
+      padding-top: 30%;
+      line-height: 2; }
+    .calendarView .calDay .classTwoF .calendarCourse {
+      padding-top: 0; }
 
 .hide {
   display: none; }
