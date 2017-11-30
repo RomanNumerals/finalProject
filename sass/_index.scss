@@ -21,6 +21,7 @@
     .blueDivider {
         margin-left: 25%;
         width: 70%;
+        z-index: 1;
     }
     .mainSection {
         .cset {
@@ -61,11 +62,18 @@
         }
     }
     .scrolling {
+        overflow-y: visible;
+        overflow-x: hidden;
+        height: 490px;
         h3 {
             @extend .mont12B;
             color: $seaBlue;
         }
         h4 {
+            @extend .mont12B;
+            color: $trickBlue;
+        }
+        h5 {
             @extend .mont12B;
             color: $trickBlue;
         }
@@ -75,6 +83,31 @@
         .robo13 {
             color: $grey;
             line-height: 1.5;
+        }
+        .flex {
+            display: flex;
+            line-height: 1;
+            padding: 0 0 3% 1%;
+            .leftFlex {
+                width: 60%;
+            }
+            .rightFlex {
+                width: 40%;
+            }
+            h3 {
+                padding: 20px 0 20px 0;
+            }
+            h4 {
+                padding-bottom: 3%;
+            }
+            h5 {
+                padding: 3% 0 4% 0;
+            }
+            p {
+                width: 90%;
+                line-height: 1.5;
+                padding-bottom: 1%;
+            }
         }
     }
 }
