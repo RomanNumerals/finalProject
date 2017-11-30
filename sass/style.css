@@ -33,7 +33,6 @@
   font-weight: light;
   font-size: 12px;
   letter-spacing: 0.2px; }
-
 .mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -222,7 +221,8 @@ table {
       text-align: right; }
   .index .blueDivider {
     margin-left: 25%;
-    width: 70%; }
+    width: 70%;
+    z-index: 1; }
   .index .mainSection .cset {
     margin-left: 2%;
     padding: 25px 0 25px 0;
@@ -246,15 +246,49 @@ table {
       color: #2e0a3a; }
     .index .mainSection .csetStatus p {
       color: #202020; }
-  .index .scrolling h3 {
-    color: #48a2ba; }
-  .index .scrolling h4 {
-    color: #59aac0; }
-  .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
-    color: #202020; }
-  .index .scrolling .robo13 {
-    color: #373737;
-    line-height: 1.5; }
+  .index .scrolling {
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 430px; }
+    .index .scrolling h3 {
+      color: #48a2ba; }
+    .index .scrolling h4 {
+      color: #59aac0; }
+    .index .scrolling h5 {
+      color: #59aac0; }
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
+      color: #202020; }
+    .index .scrolling .robo13 {
+      color: #373737;
+      line-height: 1.5; }
+    .index .scrolling .blueDivider {
+      width: 95%;
+      margin-left: 5px; }
+    .index .scrolling .flex {
+      display: flex;
+      line-height: 1;
+      padding: 0 0 3% 1%; }
+      .index .scrolling .flex .leftFlex {
+        width: 60%; }
+      .index .scrolling .flex .rightFlex {
+        width: 40%; }
+      .index .scrolling .flex h3 {
+        padding: 20px 0 20px 0; }
+      .index .scrolling .flex h4 {
+        padding-bottom: 3%; }
+      .index .scrolling .flex h5 {
+        padding: 3% 0 4% 0; }
+      .index .scrolling .flex p {
+        width: 90%;
+        line-height: 1.5;
+        padding-bottom: 1%; }
+  .index .scrolling::-webkit-scrollbar-track {
+    background-color: white; }
+  .index .scrolling::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5; }
+  .index .scrolling::-webkit-scrollbar-thumb {
+    background-color: #38bfba; }
 
 .courses {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
