@@ -2,108 +2,112 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="sass/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
-	<title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="sass/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
+    <title></title>
 </head>
 
 <body class="mainContain">
-	<section class="grades">
-	<header>
-		<nav>
-			<a href=""></a>
-			<a href=""></a>
-			<a href=""></a>
-			<a href=""></a>
-		</nav>
-		<div>DATE</div>
-		<div>LOG OUT</div>
-	</header>
-	<div>blue bar goes here</div>
-	<section>
-		<aside>
-			<h1>Henrietta Schmidtt</h1>
-			<h2>ACADEMIC SERVICES</h2>
-			<ul>
-				<li>Current Schedule</li>
-				<li>Grades &amp; Reporting</li>
-				<li>Upcoming Courses</li>
-			</ul>
-			<h2>COLLEGE INFORMATION</h2>
-			<ul>
-				<li>College Calendar</li>
-				<li>Financial Aid</li>
-				<li>Student Services</li>
-			</ul>
-		</aside>
-		<!--This section below is divided so as to begin flexbox and is fixed in position-->
-		<section>
-			<div>
-				<div>
-					<h3>CURRENT PROGRAM:</h3>
-					<p>Computer Software Engineering Technology</p>
-				</div>
-				<div>
-					<h3>CURRENT SEMESTER:</h3>
-					<p>Fall 2017</p>
-				</div>
-				<div>
-					<h3>ENROLLED CREDIT HOURS:</h3>
-					<p>15</p>
-				</div>
-				<div>
-					<h3>ACADEMIC STANDING:</h3>
-					<p>Good</p>
-				</div>
-			</div>
-		</section>
-		<div>blue bar goes here</div>
-		<!--This section below is grading section -->
-		<section>
-			<div>
-				<p>Enrolled Courses:</p>
-				<h2>CSET 105, M, 12:00pm - 4:30pm</h2>
-				<p>Intro to Web Applications</p>
-			</div>
-			<div>
-				<p>Current Grade</p>
-				<p>Recently Graded:</p>
-				<p>HTML &amp; CSS #2 Project</p>
-				<p>CSS Test</p>
-				<p>Tech Talk #2</p>
-			</div>
-			<div>
-				<div>Class Completed</div>
-				<p>Start Date:</p>
-				<p>August 20, 2017</p>
-				<p>End Date:</p>
-				<p>December 15, 2017</p>
-			</div>
-		</section>
-		<section>
-			<div>
-				<h1>CSET 110, T, 12:00pm - 4:30pm & W, 12:30pm - 4:30pm</h1>
-				<p>Web Development I</p>
-			</div>
-			<div>
-				<p>Current Grade</p>
-				<p>Recently Graded:</p>
-				<p>HTML &amp; CSS #2 Project</p>
-				<p>CSS Test</p>
-				<p>Tech Talk #2</p>
-			</div>
-			<div>
-				<div>Class Completed</div>
-				<p>Start Date:</p>
-				<p>August 20, 2017</p>
-				<p>End Date:</p>
-				<p>December 15, 2017</p>
-			</div>
-		</section>
-	</section>
+    <section class="grades">
+        <section class="infoNav">
+            <aside>
+                <img class="selfie" src="pictures/henrietta.jpg"></img>
+                <h1 class="mont15">Henrietta Schmidtt</h1>
+                <h2 class="mont11">ACADEMIC SERVICES</h2>
+                <ul class="mont13">
+                    <li>Current Schedule</li>
+                    <li>Grades &amp; Reporting</li>
+                    <li>Upcoming Courses</li>
+                </ul>
+                <h2 class="mont11">COLLEGE INFORMATION</h2>
+                <ul class="mont13">
+                    <li>College Calendar</li>
+                    <li>Financial Aid</li>
+                    <li>Student Services</li>
+                </ul>
+            </aside>
+        </section>
+        <header>
+            <nav>
+                <a href="">Home</a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </nav>
+            <div>
+                <p class="mont10B">DATE</p>
+                <p class="mont10R">LOG OUT</p>
+            </div>
+        </header>
+        <div class="blueDivider"></div>
+        <!--This section below is divided so as to begin flexbox and is fixed in position-->
+        <section class="mainSection">
+            <div class="cset">
+                <h3>CURRENT PROGRAM:</h3>
+                <p>Computer Software Engineering Technology</p>
+            </div>
+            <div class="csetStatus">
+                <div class="current">
+                    <h3>CURRENT SEMESTER:</h3>
+                    <p>Fall 2017</p>
+                </div>
+                <div class="hours">
+                    <h3>ENROLLED CREDIT HOURS:</h3>
+                    <p>15</p>
+                </div>
+                <div class="standing">
+                    <h3>ACADEMIC STANDING:</h3>
+                    <p>Good</p>
+                </div>
+            </div>
+        </section>
+        <div class="blueDivider"></div>
+        <!--This section below is grading section -->
+        <section>
+            <div>
+                <p>Enrolled Courses:</p>
+                <h2>CSET 105, M, 12:00pm - 4:30pm</h2>
+                <p>Intro to Web Applications</p>
+            </div>
+            <div>
+                <p>Current Grade</p>
+                <p>Recently Graded:</p>
+                <p>HTML &amp; CSS #2 Project</p>
+                <p>CSS Test</p>
+                <p>Tech Talk #2</p>
+            </div>
+            <div>
+                <div>Class Completed</div>
+                <p>Start Date:</p>
+                <p>August 20, 2017</p>
+                <p>End Date:</p>
+                <p>December 15, 2017</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>CSET 110, T, 12:00pm - 4:30pm &amp; W, 12:30pm - 4:30pm</h1>
+                <p>Web Development I</p>
+            </div>
+            <div>
+                <p>Current Grade</p>
+                <p>Recently Graded:</p>
+                <p>HTML &amp; CSS #2 Project</p>
+                <p>CSS Test</p>
+                <p>Tech Talk #2</p>
+            </div>
+            <div>
+                <div>Class Completed</div>
+                <p>Start Date:</p>
+                <p>August 20, 2017</p>
+                <p>End Date:</p>
+                <p>December 15, 2017</p>
+            </div>
+        </section>
+    </section>
 </body>
 
 </html>

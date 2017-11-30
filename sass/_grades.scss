@@ -1,3 +1,25 @@
-.grades{
-    background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+.grades {
+    background-color: $offWhite;
+    height: 94%;
+    width: 95%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: fixed;
+    header {
+        display: flex;
+        padding: 15px 0 25px 0;
+        nav {
+            margin-left: 2%;
+            a {
+                text-decoration: none;
+            }
+        }
+        div {
+            padding-left: 80%;
+            text-align: right;
+        }
+    }
+    .blueDivider {
+        width: 70%;
+        margin-left: 25%;
+    }
 }
