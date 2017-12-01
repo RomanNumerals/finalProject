@@ -22,4 +22,41 @@
         width: 70%;
         margin-left: 25%;
     }
+    .mainSection {
+        width: 75%;
+        .cset {
+            padding: 3% 0 5% 2%;
+            h3 {
+                @extend .mont12B;
+                color: $seaBlue;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey;
+                width: 100%;
+            }
+        }
+        .csetStatus {
+            display: flex;
+            line-height: 1.5;
+            padding: 0 0 5% 2%;
+            .current {
+                width: 33.3%;
+            }
+            .hours {
+                width: 33.3%;
+            }
+            .standing {
+                width: 33.3%;
+            }
+            h3 {
+                @extend .mont12B;
+                color: $ashPurp;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey;
+            }
+        }
+    }
 }
