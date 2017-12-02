@@ -59,4 +59,43 @@
             }
         }
     }
+    .gradeScroll {
+        .enrolled {
+            display: flex;
+            justify-content: space-between;
+            padding: 2% 0 0 1.5%;
+            h2 {
+                @extend .mont12B;
+                color: $seaBlue;
+                line-height: 1.75;
+            }
+            h3 {
+                @extend .mont12B;
+                color: $ashPurp;
+                line-height: 1.75;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey;
+                line-height: 1.75;
+            }
+            .whiteBox {
+                background-color: #ffffff;
+                height: 70px;
+                width: 114px;
+                margin-right: 10%;
+                h4 {
+                    @extend .mont10B;
+                    color: #4ca2b9;
+                    text-align: center;
+                    padding: 10% 0 5% 0;
+                }
+                h5 {
+                    @extend .mont30B;
+                    color: $tutor;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
