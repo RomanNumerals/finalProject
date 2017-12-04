@@ -538,7 +538,7 @@ table {
             color: #4a4a4a;
             padding-bottom: 8%; }
       .grades .gradeScroll .flex .recentGrades {
-        margin: 8% 0 0 5%;
+        margin: 8% 0 1% 5%;
         width: 40%; }
         .grades .gradeScroll .flex .recentGrades h2 {
           color: #4ca2b9;
