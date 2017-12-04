@@ -1,3 +1,38 @@
-.courses{
-    background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+.blueDivider {
+  margin: 1% 0 2% 24%;
+
+}
+.courses {
+  background-color: $offWhite;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+.mainSection {
+  padding: 2%;
+}
+.programStanding {
+
+}
+.currentProgram {
+  line-height: 1.5;
+  margin-bottom: 5%;
+  h3 {
+    @extend .mont12B;
+    color:$seaBlue;
+  }
+}
+.studentInfo {
+  display: inline-flex;
+  div {
+    padding-right: 60px;
+  }
+  h3 {
+    @extend .mont12B;
+    color: $ashPurp;
+  }
+  p {
+    @extend .mont15;
+  }
 }
