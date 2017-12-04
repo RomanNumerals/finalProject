@@ -16,7 +16,7 @@
   font-size: 10px;
   letter-spacing: 0.2px; }
 
-.mont10B, .date, .viewAs {
+.mont10B, .date, .viewAs, .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .recentGrades h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 10px;
@@ -28,13 +28,14 @@
   font-size: 11px;
   letter-spacing: 0.2px; }
 
-.mont12L {
+.mont12L, .grades .gradeScroll .flex .lgWhiteBox .outterCircle .innerCircle p, .grades .gradeScroll .flex .lgWhiteBox .startFinish p, .grades .gradeScroll .flex .recentGrades ul li {
   font-family: 'Montserrat', sans-serif;
   font-weight: light;
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,19 +59,21 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p {
+
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
   letter-spacing: 0.2px; }
 
-.mont30L {
+.mont30L, .grades .gradeScroll .flex .lgWhiteBox .outterCircle .innerCircle h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: light;
   font-size: 30px;
   letter-spacing: 0.2px; }
 
-.mont30B {
+.mont30B, .grades .gradeScroll .enrolled .whiteBox h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -257,7 +260,9 @@ table {
       color: #59aac0; }
     .index .scrolling h5 {
       color: #59aac0; }
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p {
+
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
+
       color: #202020; }
     .index .scrolling .robo13 {
       color: #373737;
@@ -425,7 +430,134 @@ table {
     margin: 0 5% 0 5%; }
 
 .grades {
-  background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
+  background-color: #f7f7f7;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  .grades header {
+    display: flex;
+    padding: 15px 0 25px 0; }
+    .grades header nav {
+      margin-left: 2%; }
+      .grades header nav a {
+        text-decoration: none; }
+    .grades header div {
+      padding-left: 80%;
+      text-align: right; }
+  .grades .blueDivider {
+    width: 70%;
+    margin-left: 25%; }
+  .grades .mainSection {
+    width: 75%; }
+    .grades .mainSection .cset {
+      padding: 3% 0 5% 2%; }
+      .grades .mainSection .cset h3 {
+        color: #48a2ba; }
+      .grades .mainSection .cset p {
+        color: #202020;
+        width: 100%; }
+    .grades .mainSection .csetStatus {
+      display: flex;
+      line-height: 1.5;
+      padding: 0 0 5% 2%; }
+      .grades .mainSection .csetStatus .current {
+        width: 33.3%; }
+      .grades .mainSection .csetStatus .hours {
+        width: 33.3%; }
+      .grades .mainSection .csetStatus .standing {
+        width: 33.3%; }
+      .grades .mainSection .csetStatus h3 {
+        color: #2e0a3a; }
+      .grades .mainSection .csetStatus p {
+        color: #202020; }
+  .grades .gradeScroll {
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 65%;
+    width: 76%; }
+    .grades .gradeScroll .enrolled {
+      display: flex;
+      justify-content: space-between;
+      padding: 2% 0 0 1.5%; }
+      .grades .gradeScroll .enrolled h2 {
+        color: #48a2ba;
+        line-height: 1.75; }
+      .grades .gradeScroll .enrolled h3 {
+        color: #2e0a3a;
+        line-height: 1.75; }
+      .grades .gradeScroll .enrolled p {
+        color: #202020;
+        line-height: 1.75; }
+      .grades .gradeScroll .enrolled .whiteBox {
+        background-color: #ffffff;
+        height: 70px;
+        width: 114px;
+        margin-right: 10%; }
+        .grades .gradeScroll .enrolled .whiteBox h4 {
+          color: #4ca2b9;
+          text-align: center;
+          padding: 10% 0 5% 0; }
+        .grades .gradeScroll .enrolled .whiteBox h5 {
+          color: #33c7ba;
+          text-align: center; }
+    .grades .gradeScroll .flex {
+      display: flex; }
+      .grades .gradeScroll .flex .lgWhiteBox {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff;
+        padding: 2%;
+        margin: 2% 0 5% 0;
+        width: 50%; }
+        .grades .gradeScroll .flex .lgWhiteBox .outterCircle {
+          width: 160px;
+          height: 160px;
+          border-radius: 50%;
+          background: linear-gradient(90deg, lightgrey, lightgrey 60%, #33c7ba 60%, #33c7ba 40%);
+          border-image-slice: 1;
+          text-align: center; }
+          .grades .gradeScroll .flex .lgWhiteBox .outterCircle .innerCircle {
+            background-color: #ffffff;
+            border-radius: 50%;
+            height: 47%;
+            width: 45%;
+            line-height: 1.5;
+            padding: 20%;
+            position: relative;
+            top: 7%;
+            left: 8%; }
+            .grades .gradeScroll .flex .lgWhiteBox .outterCircle .innerCircle h2 {
+              color: #48a2ba; }
+            .grades .gradeScroll .flex .lgWhiteBox .outterCircle .innerCircle p {
+              color: #4a4a4a; }
+        .grades .gradeScroll .flex .lgWhiteBox .startFinish {
+          margin-top: 10%; }
+          .grades .gradeScroll .flex .lgWhiteBox .startFinish h2 {
+            color: #48a2ba;
+            padding-bottom: 5%; }
+          .grades .gradeScroll .flex .lgWhiteBox .startFinish p {
+            color: #4a4a4a;
+            padding-bottom: 8%; }
+      .grades .gradeScroll .flex .recentGrades {
+        margin: 8% 0 0 5%;
+        width: 40%; }
+        .grades .gradeScroll .flex .recentGrades h2 {
+          color: #4ca2b9;
+          padding-bottom: 4%; }
+        .grades .gradeScroll .flex .recentGrades ul {
+          column-count: 2;
+          column-gap: 40px; }
+          .grades .gradeScroll .flex .recentGrades ul li {
+            color: #33c7ba;
+            padding-bottom: 6%; }
+  .grades .gradeScroll::-webkit-scrollbar-track {
+    background-color: white; }
+  .grades .gradeScroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5; }
+  .grades .gradeScroll::-webkit-scrollbar-thumb {
+    background-color: #38bfba; }
 
 .blueDivider {
   background-color: #6291a9;
