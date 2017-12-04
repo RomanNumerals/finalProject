@@ -60,6 +60,10 @@
         }
     }
     .gradeScroll {
+        overflow-y: visible;
+        overflow-x: hidden;
+        height: 65%;
+        width: 76%;
         .enrolled {
             display: flex;
             justify-content: space-between;
@@ -97,5 +101,84 @@
                 }
             }
         }
+        .flex {
+            display: flex;
+            .lgWhiteBox {
+                display: flex;
+                justify-content: space-around;
+                background-color: #ffffff;
+                padding: 2%;
+                margin: 2% 0 5% 0;
+                width: 50%;
+                .outterCircle {
+                    width: 160px;
+                    height: 160px;
+                    border-radius: 50%;
+                    background: linear-gradient(90deg, lightgrey, lightgrey 60%, $tutor 60%, $tutor 40%);
+                    border-image-slice: 1;
+                    text-align: center;
+                    .innerCircle {
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        height: 47%;
+                        width: 45%;
+                        line-height: 1.5;
+                        padding: 20%;
+                        position: relative;
+                        top: 7%;
+                        left: 8%;
+                        h2 {
+                            color: $seaBlue;
+                            @extend .mont30L;
+                        }
+                        p {
+                            color: #4a4a4a;
+                            @extend .mont12L;
+                        }
+                    }
+                }
+                .startFinish {
+                    margin-top: 10%;
+                    h2 {
+                        color: $seaBlue;
+                        @extend .mont10B;
+                        padding-bottom: 5%;
+                    }
+                    p {
+                        color: #4a4a4a;
+                        @extend .mont12L;
+                        padding-bottom: 8%;
+                    }
+                }
+            }
+            .recentGrades {
+                margin: 8% 0 0 5%;
+                width: 40%;
+                h2 {
+                    color: #4ca2b9;
+                    @extend .mont10B;
+                    padding-bottom: 4%;
+                }
+                ul {
+                    column-count: 2;
+                    column-gap: 40px;
+                    li {
+                        color: $tutor;
+                        @extend .mont12L;
+                        padding-bottom: 6%;
+                    }
+                }
+            }
+        }
+    }
+    .gradeScroll::-webkit-scrollbar-track {
+        background-color: white;
+    }
+    .gradeScroll::-webkit-scrollbar {
+        width: 6px;
+        background-color: #F5F5F5;
+    }
+    .gradeScroll::-webkit-scrollbar-thumb {
+        background-color: #38bfba;
     }
 }
