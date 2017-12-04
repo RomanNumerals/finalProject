@@ -34,9 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-
-develop/academicDash
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -60,9 +58,7 @@ develop/academicDash
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
-
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -261,9 +257,7 @@ table {
       color: #59aac0; }
     .index .scrolling h5 {
       color: #59aac0; }
-
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
-
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
       color: #202020; }
     .index .scrolling .robo13 {
       color: #373737;
@@ -296,6 +290,9 @@ table {
     background-color: #F5F5F5; }
   .index .scrolling::-webkit-scrollbar-thumb {
     background-color: #38bfba; }
+
+.courses {
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
 
 .blueDivider {
   margin: 1% 0 2% 24%; }
@@ -604,15 +601,5 @@ table {
   width: 95%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: fixed; }
-
-header {
-  color: #1b3c50;
-  width: 368px;
-  height: 13px;
-  font-size: 10px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  font-family: 'Montserrat';
-  margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
