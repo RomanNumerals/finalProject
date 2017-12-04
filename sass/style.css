@@ -579,6 +579,9 @@ table {
     line-height: 3;
     text-align: left;
     margin-left: 20%; }
+    .infoNav aside ul li a {
+      text-decoration: none;
+      color: #f7f7f7; }
 
 .mainSection {
   display: inline-block; }
