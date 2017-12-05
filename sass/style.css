@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
+.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +58,7 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
+.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -205,90 +205,95 @@ table {
   border-spacing: 0; }
 
 .index {
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+  width: 100%;
+  height: 100%; }
+
+.home {
   background-color: #f7f7f7;
   height: 94%;
   width: 95%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: fixed; }
-  .index header {
+  .home header {
     display: flex;
     padding: 30px 0 30px 0; }
-    .index header nav {
+    .home header nav {
       margin-left: 2%; }
-      .index header nav a {
+      .home header nav a {
         text-decoration: none; }
-    .index header div {
+    .home header div {
       padding-left: 80%;
       text-align: right; }
-  .index .blueDivider {
+  .home .blueDivider {
     margin-left: 25%;
     width: 70%;
     z-index: 1; }
-  .index .mainSection .cset {
+  .home .mainSection .cset {
     margin-left: 2%;
     padding: 25px 0 25px 0;
     line-height: 1.5; }
-    .index .mainSection .cset h3 {
+    .home .mainSection .cset h3 {
       color: #48a2ba; }
-    .index .mainSection .cset p {
+    .home .mainSection .cset p {
       color: #202020; }
-  .index .mainSection .csetStatus {
+  .home .mainSection .csetStatus {
     display: block;
     line-height: 1.5; }
-    .index .mainSection .csetStatus .current {
+    .home .mainSection .csetStatus .current {
       display: inline-block;
       padding: 0 80px 30px 10px; }
-    .index .mainSection .csetStatus .hours {
+    .home .mainSection .csetStatus .hours {
       display: inline-block;
       padding-right: 80px; }
-    .index .mainSection .csetStatus .standing {
+    .home .mainSection .csetStatus .standing {
       display: inline-block; }
-    .index .mainSection .csetStatus h3 {
+    .home .mainSection .csetStatus h3 {
       color: #2e0a3a; }
-    .index .mainSection .csetStatus p {
+    .home .mainSection .csetStatus p {
       color: #202020; }
-  .index .scrolling {
+  .home .scrolling {
     overflow-y: visible;
     overflow-x: hidden;
     height: 430px; }
-    .index .scrolling h3 {
+    .home .scrolling h3 {
       color: #48a2ba; }
-    .index .scrolling h4 {
+    .home .scrolling h4 {
       color: #59aac0; }
-    .index .scrolling h5 {
+    .home .scrolling h5 {
       color: #59aac0; }
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
+    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .studentInfo p, .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p {
       color: #202020; }
-    .index .scrolling .robo13 {
+    .home .scrolling .robo13 {
       color: #373737;
       line-height: 1.5; }
-    .index .scrolling .blueDivider {
+    .home .scrolling .blueDivider {
       width: 93%;
       margin-left: 12px; }
-    .index .scrolling .flex {
+    .home .scrolling .flex {
       display: flex;
       line-height: 1;
       padding: 0 0 3% 1%; }
-      .index .scrolling .flex .leftFlex {
+      .home .scrolling .flex .leftFlex {
         width: 60%; }
-      .index .scrolling .flex .rightFlex {
+      .home .scrolling .flex .rightFlex {
         width: 40%; }
-      .index .scrolling .flex h3 {
+      .home .scrolling .flex h3 {
         padding: 20px 0 20px 0; }
-      .index .scrolling .flex h4 {
+      .home .scrolling .flex h4 {
         padding-bottom: 3%; }
-      .index .scrolling .flex h5 {
+      .home .scrolling .flex h5 {
         padding: 3% 0 4% 0; }
-      .index .scrolling .flex p {
+      .home .scrolling .flex p {
         width: 90%;
         line-height: 1.5;
         padding-bottom: 1%; }
-  .index .scrolling::-webkit-scrollbar-track {
+  .home .scrolling::-webkit-scrollbar-track {
     background-color: white; }
-  .index .scrolling::-webkit-scrollbar {
+  .home .scrolling::-webkit-scrollbar {
     width: 6px;
     background-color: #F5F5F5; }
-  .index .scrolling::-webkit-scrollbar-thumb {
+  .home .scrolling::-webkit-scrollbar-thumb {
     background-color: #38bfba; }
 
 .courses {
