@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +58,7 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p {
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex2 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -257,7 +257,7 @@ table {
       color: #59aac0; }
     .index .scrolling h5 {
       color: #59aac0; }
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p, .academic .mainSection .cset .index .scrolling p, .academic .mainSection .csetStatus .index .scrolling p {
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p, .academic .mainSection .cset .index .scrolling p, .academic .mainSection .csetStatus .index .scrolling p, .index .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .index .scrolling p {
       color: #202020; }
     .index .scrolling .robo13 {
       color: #373737;
@@ -586,7 +586,43 @@ table {
     .academic .mainSection .csetStatus p {
       color: #202020; }
   .academic .flexed {
-    display: flex; }
+    display: flex;
+    overflow-y: visible;
+    overflow-x: hidden;
+    height: 65%;
+    width: 75%;
+    padding-top: 2%; }
+    .academic .flexed .flex1 {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 60%; }
+      .academic .flexed .flex1 .academicGlance {
+        color: #48a2ba;
+        width: 90%;
+        padding-bottom: 4%; }
+      .academic .flexed .flex1 .miniBox {
+        background-color: #ffffff;
+        width: 40%;
+        height: 275px;
+        margin-bottom: 2%; }
+    .academic .flexed .flex2 {
+      width: 40%; }
+      .academic .flexed .flex2 h2 {
+        color: #48a2ba; }
+      .academic .flexed .flex2 h3 {
+        color: #59aac0; }
+      .academic .flexed .flex2 h4 {
+        color: #2e0a3a; }
+      .academic .flexed .flex2 p {
+        color: #202020; }
+  .academic .flexed::-webkit-scrollbar-track {
+    background-color: white; }
+  .academic .flexed::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5; }
+  .academic .flexed::-webkit-scrollbar-thumb {
+    background-color: #38bfba; }
 
 .blueDivider {
   background-color: #6291a9;
