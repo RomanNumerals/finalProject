@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +58,7 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -257,7 +257,7 @@ table {
       color: #59aac0; }
     .index .scrolling h5 {
       color: #59aac0; }
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p, .academic .mainSection .cset .index .scrolling p, .academic .mainSection .csetStatus .index .scrolling p {
       color: #202020; }
     .index .scrolling .robo13 {
       color: #373737;
@@ -552,6 +552,41 @@ table {
     background-color: #F5F5F5; }
   .grades .gradeScroll::-webkit-scrollbar-thumb {
     background-color: #38bfba; }
+
+.academic {
+  background-color: #f7f7f7;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed; }
+  .academic .blueDivider {
+    margin-left: 25%;
+    width: 70%; }
+  .academic .mainSection .cset {
+    margin-left: 2%;
+    padding: 25px 0 25px 0;
+    line-height: 1.5; }
+    .academic .mainSection .cset h3 {
+      color: #48a2ba; }
+    .academic .mainSection .cset p {
+      color: #202020; }
+  .academic .mainSection .csetStatus {
+    display: block;
+    line-height: 1.5; }
+    .academic .mainSection .csetStatus .current {
+      display: inline-block;
+      padding: 0 80px 30px 10px; }
+    .academic .mainSection .csetStatus .hours {
+      display: inline-block;
+      padding-right: 80px; }
+    .academic .mainSection .csetStatus .standing {
+      display: inline-block; }
+    .academic .mainSection .csetStatus h3 {
+      color: #2e0a3a; }
+    .academic .mainSection .csetStatus p {
+      color: #202020; }
+  .academic .flexed {
+    display: flex; }
 
 .blueDivider {
   background-color: #6291a9;

@@ -1,0 +1,53 @@
+.academic {
+    background-color: $offWhite;
+    height: 94%;
+    width: 95%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: fixed;
+    .blueDivider {
+        margin-left: 25%;
+        width: 70%;
+    }
+    .mainSection {
+        .cset {
+            margin-left: 2%;
+            padding: 25px 0 25px 0;
+            line-height: 1.5;
+            h3 {
+                @extend .mont12B;
+                color: $seaBlue;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey
+            }
+        }
+        .csetStatus {
+            display: block;
+            line-height: 1.5;
+            .current {
+                display: inline-block;
+                padding: 0 80px 30px 10px;
+            }
+            .hours {
+                display: inline-block;
+                padding-right: 80px;
+            }
+            .standing {
+                display: inline-block;
+            }
+            h3 {
+                @extend .mont12B;
+                color: $ashPurp;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey;
+            }
+        }
+    }
+    .flexed {
+        display: flex;
+        .flex1 {}
+    }
+}
