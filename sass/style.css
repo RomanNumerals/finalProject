@@ -16,7 +16,7 @@
   font-size: 10px;
   letter-spacing: 0.2px; }
 
-.mont10B, .date, .viewAs, .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .recentGrades h2 {
+.mont10B, .courses .viewAs h3, .courses .viewAs p, .date, .viewAs, .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .recentGrades h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 10px;
@@ -34,9 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-develop/academicPage
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
-
+.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .courses .currentProgram h3, .courses .studentInfo h3, .courses .uc, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -60,9 +58,7 @@ develop/academicPage
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-develop/academicPage
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
-
+.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .courses .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -272,9 +268,7 @@ table {
       color: #59aac0; }
     .home .scrolling h5 {
       color: #59aac0; }
-develop/academicPage
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .studentInfo p, .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p, .academic .mainSection .cset .index .scrolling p, .academic .mainSection .csetStatus .index .scrolling p, .index .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .index .scrolling p, .index .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .index .scrolling p {
-
+    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .courses .studentInfo p, .courses .studentInfo .home .scrolling p, .home .scrolling .schedule .studentInfo p, .schedule .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
       color: #202020; }
     .home .scrolling .robo13 {
       color: #373737;
@@ -318,19 +312,30 @@ develop/academicPage
     margin: 1% 0 2% 24%; }
   .courses .mainSection {
     padding: 2%; }
-
-.currentProgram {
-  line-height: 1.5;
-  margin-bottom: 5%; }
-  .currentProgram h3 {
+  .courses .currentProgram {
+    line-height: 1.5;
+    margin-bottom: 5%; }
+    .courses .currentProgram h3 {
+      color: #48a2ba; }
+  .courses .studentInfo {
+    display: inline-flex; }
+    .courses .studentInfo div {
+      padding-right: 60px; }
+    .courses .studentInfo h3 {
+      color: #2e0a3a; }
+  .courses .uc {
     color: #48a2ba; }
-
-.studentInfo {
-  display: inline-flex; }
-  .studentInfo div {
-    padding-right: 60px; }
-  .studentInfo h3 {
-    color: #2e0a3a; }
+  .courses .viewAs {
+    margin: -1% 0 0 80%; }
+    .courses .viewAs h3 {
+      color: #4da4bc; }
+    .courses .viewAs p {
+      color: #5bd8c8; }
+  .courses .courseBox {
+    background-color: red;
+    height: 35%;
+    width: 70%;
+    display: inline-block; }
 
 .mainContain {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
