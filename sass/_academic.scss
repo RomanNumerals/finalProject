@@ -131,16 +131,20 @@
             h5 {
                 @extend .mont12B;
                 color: $seaBlue;
+                margin: 6% 0 10% 0;
             }
             a {
                 margin-bottom: 4%;
             }
             .view {
                 text-decoration: none;
-                margin-bottom: 3%;
+                margin-left: 20%;
+                color: $ashPurp;
             }
             .more {
                 text-decoration: none;
+                margin-left: 52%;
+                color: $ashPurp;
             }
             p {
                 @extend .mont15;

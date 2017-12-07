@@ -654,14 +654,18 @@ table {
         color: #2e0a3a;
         margin-bottom: 2%; }
       .academic .flexed .flex2 h5 {
-        color: #48a2ba; }
+        color: #48a2ba;
+        margin: 6% 0 10% 0; }
       .academic .flexed .flex2 a {
         margin-bottom: 4%; }
       .academic .flexed .flex2 .view {
         text-decoration: none;
-        margin-bottom: 3%; }
+        margin-left: 20%;
+        color: #2e0a3a; }
       .academic .flexed .flex2 .more {
-        text-decoration: none; }
+        text-decoration: none;
+        margin-left: 52%;
+        color: #2e0a3a; }
       .academic .flexed .flex2 p {
         color: #202020;
         margin-bottom: 5%; }
