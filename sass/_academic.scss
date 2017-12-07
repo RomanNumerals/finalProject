@@ -57,7 +57,7 @@
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
-            width: 60%;
+            width: 65%;
             .academicGlance {
                 @extend .mont12B;
                 color: $seaBlue;
@@ -69,25 +69,83 @@
                 width: 40%;
                 height: 275px;
                 margin-bottom: 2%;
+                h2 {
+                    @extend .mont12B;
+                    color: $ashPurp;
+                    text-align: center;
+                    padding-top: 10%;
+                    margin-bottom: 4%;
+                }
+                p {
+                    @extend .mont15;
+                    color: $slateGrey;
+                    text-align: center;
+                    margin-bottom: 4%;
+                }
+                .outterCircle {
+                    width: 60%;
+                    height: 55%;
+                    border-radius: 50%;
+                    background: linear-gradient(90deg, lightgrey, lightgrey 60%, $tutor 60%, $tutor 40%);
+                    text-align: center;
+                    margin: 9% 0 0 20%;
+                    .innerCircle {
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        position: relative;
+                        top: 7.5%;
+                        left: 8%;
+                        height: 85%;
+                        width: 85%;
+                        p {
+                            @extend .mont12B;
+                            font-weight: 600;
+                            line-height: 1.3;
+                            padding: 15% 5% 0 5%;
+                        }
+                        h2 {
+                            @extend .mont40B;
+                            color: $seaBlue;
+                        }
+                    }
+                }
             }
         }
         .flex2 {
-            width: 40%;
+            width: 25%;
             h2 {
                 @extend .mont12B;
                 color: $seaBlue;
+                padding-bottom: 10%;
             }
             h3 {
                 @extend .mont12B;
                 color: $trickBlue;
+                margin-bottom: 2%;
             }
             h4 {
                 @extend .mont12B;
                 color: $ashPurp;
+                margin-bottom: 2%;
+            }
+            h5 {
+                @extend .mont12B;
+                color: $seaBlue;
+            }
+            a {
+                margin-bottom: 4%;
+            }
+            .view {
+                text-decoration: none;
+                margin-bottom: 3%;
+            }
+            .more {
+                text-decoration: none;
             }
             p {
                 @extend .mont15;
                 color: $slateGrey;
+                margin-bottom: 5%;
             }
         }
     }
