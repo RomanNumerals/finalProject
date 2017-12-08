@@ -12,21 +12,60 @@
 
 <body class="index">
 	<section class="background">
-		<section class="white-background">
-			<div class="login-white-box">
-				<p class="thaddeus-stevens-text">Thaddeus Stevens College of Technology</p>
-				<p class="student-portal">Student Portal</p>
-				<form action="#1">
-					<input class="email-box" type="text" name="email-box">
-					<input class="password-box" type="text" name="email-box">
-					<div class="submit-button"></div>
-					<button class="submit-button" type="submit" value="Submit">Submit</button>
-					<p class="submit-button-text">Submit</p>
-					<a class="forgot-password" href="#">Forgot Password?</a>
+		<section class="whiteBackground">
+			<div class="borderBar"></div>
+			<div class="loginWhiteBox">
+				<p class="thaddeusStevensText">Thaddeus Stevens College of Technology</p>
+				<p class="studentPortal">Student Portal</p>
+				<form id="formid" method="get" action="home.html">
+					<input class="emailBox" type="text" name="email-box">
+					<input class="passwordBox" type="text" name="password-box">
 				</form>
-			</div>
+				<button class="submitButton" type="submit" value="Submit" form="formid">Submit</button>
+				<a class="forgotPassword" href="#0">Forgot your password?</a>
 		</section>
-	</section>
+		<section class="transparentBackground hide">
+		</section>
+		<section class="forgotPasswordBox hide">
+			<div class="forgotPasswordBar"></div>
+			<p class="forgotPasswordText">Forgot Password</p>
+			<p class="forgotPasswordTextParagraph">Don’t worry, forgotten passwords happen to everyone from time to time.
+				<br>
+				<br> What is your email address?</p>
+			<input class="forgotPasswordAnswer" type="text" name="answer-box">
+			<button class="forgotPasswordSubmit" type="submit" value="Submit">Submit</button>
+		</section>
+		<section class="transparentBackground hide">
+		</section>
+		<section class="forgotPasswordBox hide">
+			<div class="forgotPasswordBar"></div>
+			<div class="forgotPasswordBlueBar"></div>
+			<p class="forgotPasswordText">Forgot Password</p>
+			<p class="forgotPasswordTextParagraph">Great! Answer the following security questions to have a new password emailed to your account.
+				<br>
+				<br> What was the street you grew up on?</p>
+			<input class="forgotPasswordAnswer" type="text" name="answer-box">
+			<button class="forgotPasswordSubmit" type="submit" value="Submit">Submit</button>
+			<p class="incorrectAnswer hide">Incorrect Answer!</p>
+		</section>
+		<section class="forgotPasswordBox hide">
+			<div class="forgotPasswordBar"></div>
+			<div class="forgotPasswordBlueBarSecond"></div>
+			<p class="forgotPasswordText">Forgot Password</p>
+			<p class="forgotPasswordTextParagraph">Great! Answer the following security questions to have a new password emailed to your account.
+				<br>
+				<br> What is your favorite color?</p>
+			<input class="forgotPasswordAnswer" type="text" name="answer-box">
+			<button class="forgotPasswordSubmit" type="submit" value="Submit">Submit</button>
+			<p class="incorrectAnswer hide">Incorrect Answer!</p>
+		</section>
+		<section class="forgotPasswordBoxThird hide">
+			<div class="forgotPasswordBlueBarThird"></div>
+			<p class="forgotPasswordText">Forgot Password</p>
+			<p class="forgotPasswordTextParagraph">Success! We’ve confirmed your identity. A new password is being sent to the email address on file.</p>
+			<button class="forgotPasswordSubmitFinal" type="submit" value="Submit">Okay</button>
+			<a href="#" class="resendEmail">Resend Email</a>
+		</section>
 </body>
 
 </html>
