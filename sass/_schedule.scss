@@ -7,7 +7,6 @@
 .schedule {
   .blueDivider {
     margin: 1% 0 2% 24%;
-
   }
   .mainSection {
     padding: 2%;
@@ -51,6 +50,27 @@
     @extend .mont15;
     margin-bottom: 2%;
   }
+}
+aside {
+  li:hover {
+    background-color: $active;
+    cursor: pointer;
+    width: 100%;
+  }
+}
+.viewAs {
+  .listToggle:hover {
+    cursor: pointer;
+  }
+  .calendarToggle:hover {
+    cursor: pointer;
+  }
+}
+.dateLogOut {
+  margin-left: 90%;
+}
+.listView:hover {
+  cursor: pointer;
 }
 .calendarView {
   h3 {
