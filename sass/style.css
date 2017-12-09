@@ -10,7 +10,7 @@
   font-size: 8px;
   letter-spacing: 0.2px; }
 
-.mont10R, .calendarView h5, .calendarView .calendarCourse, .logOut {
+.mont10R, .activePage, .notActive, .calendarView h5, .calendarView .calendarCourse, .logOut {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 10px;
@@ -34,7 +34,9 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
+ develop/coursesAddition
 .mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .courses .currentProgram h3, .courses .studentInfo h3, .courses .uc, .courses .courseBox h2, .courses .registration .majorsOne form, .courses .registration .cset160 form, .courses .registration .cset180 form, .courses .registration .help div, .courses .registration .help button, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +60,9 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
+develop/coursesAddition
 .mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .courses .studentInfo p, .courses .courseBox h3, .courses .registration .majorsOne h2, .courses .registration .cset160 h2, .courses .registration .cset180 h2, .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .ss p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -211,9 +215,268 @@ table {
   border-spacing: 0; }
 
 .index {
-  background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
-  width: 100%;
-  height: 100%; }
+  background-image: linear-gradient(126deg, #2fcfba, #47a1ba); }
+  .index .background {
+    background-color: #f7f7f7;
+    margin-left: 2%;
+    width: 90%; }
+    .index .background .whiteBackground {
+      margin: 30px;
+      padding: 20px;
+      width: 100%;
+      height: 720px;
+      background-color: #f7f7f7; }
+    .index .background .borderBar {
+      width: 100%;
+      height: 2px;
+      background-color: #6291a9;
+      margin-left: -1%;
+      margin-top: 1%; }
+    .index .background .loginWhiteBox {
+      width: 80%;
+      height: 370px;
+      background-color: #ffffff;
+      margin: 150px auto; }
+    .index .background .thaddeusStevensText {
+      width: 70%;
+      height: 40px;
+      font-family: Montserrat;
+      font-size: 21px;
+      font-weight: 600;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #202020;
+      margin: 60px 0 0 0px;
+      position: absolute; }
+    .index .background .studentPortal {
+      width: 70%;
+      height: 69px;
+      font-family: Montserrat;
+      font-size: 21px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #3bb9ba;
+      margin: 110px 0 0 0;
+      position: absolute; }
+    .index .background .emailBox {
+      width: 65%;
+      height: 6%;
+      background-color: #f7f7f7;
+      border: solid 1px #3bb9ba;
+      margin-top: 140px;
+      margin-left: 3%;
+      position: absolute; }
+    .index .background .passwordBox {
+      width: 65%;
+      height: 6%;
+      background-color: #f7f7f7;
+      border: solid 1px #3bb9ba;
+      margin-top: 200px;
+      margin-left: 3%;
+      position: absolute; }
+    .index .background .submitButton {
+      width: 15%;
+      height: 48px;
+      background-color: #3bb9ba;
+      margin: 280px 0 0 150px;
+      position: absolute; }
+    .index .background div {
+      margin-left: 20%; }
+    .index .background .forgotPassword {
+      width: 30%;
+      height: 33px;
+      font-family: Montserrat;
+      font-size: 12px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #3bb9ba;
+      margin-top: 300px;
+      margin-left: 20%;
+      position: absolute; }
+    .index .background .submitButton {
+      width: 10%;
+      margin-left: 10%; }
+    .index .background form {
+      width: 80%; }
+    .index .background .forgotPasswordBox {
+      width: 34%;
+      height: 350px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin: -590px 0px 0px 450px;
+      position: absolute; }
+    .index .background .forgotPasswordBar {
+      width: 100%;
+      height: 8px;
+      background-color: #4a4a4a;
+      margin: 0 0 0 0px;
+      position: absolute; }
+    .index .background .forgotPasswordBlueBar {
+      width: 33%;
+      height: 8px;
+      background-color: #3bb9ba;
+      margin: 0 0 0 0;
+      position: absolute; }
+    .index .background .forgotPasswordText {
+      width: 80%;
+      height: 18px;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #33c7ba;
+      margin: 50px 0 0 50px;
+      position: absolute; }
+    .index .background .forgotPasswordTextParagraph {
+      width: 90%;
+      height: 101px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 100px;
+      margin-left: 50px;
+      position: absolute; }
+    .index .background .forgotPasswordAnswer {
+      width: 60%;
+      height: 48px;
+      background-color: #ffffff;
+      border: solid 1px black;
+      margin-top: 200px;
+      margin-left: 50px;
+      position: absolute; }
+    .index .background .forgotPasswordAnswerWrong {
+      width: 350px;
+      height: 48px;
+      background-color: #ffffff;
+      border: solid 1px #d0021b;
+      margin-top: 200px;
+      margin-left: 50px;
+      position: absolute; }
+    .index .background .forgotPasswordSubmit {
+      width: 20%;
+      height: 42px;
+      background-color: #3bb9ba;
+      color: white;
+      margin-top: 280px;
+      margin-left: 50px;
+      position: absolute; }
+    .index .background .incorrectAnswer {
+      width: 180.2px;
+      height: 18px;
+      font-family: Montserrat;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #d0021b;
+      margin-top: 290px;
+      margin-left: 275px;
+      position: absolute; }
+    .index .background .forgotPasswordBlueBarSecond {
+      width: 66%;
+      height: 8px;
+      background-color: #3bb9ba;
+      margin: 0 0 0 0;
+      position: absolute; }
+    .index .background .forgotPasswordBlueBarThird {
+      width: 100%;
+      height: 8px;
+      background-color: #3bb9ba;
+      margin: 0 0 0 0;
+      position: absolute; }
+    .index .background .forgotPasswordBoxThird {
+      width: 42.5%;
+      height: 265px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin: -590px 0px 0px 450px;
+      position: absolute; }
+    .index .background .forgotPasswordSubmitFinal {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-top: 180px;
+      margin-left: 50px;
+      position: absolute; }
+    .index .background .resendEmail {
+      width: 30%;
+      height: 18px;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: center;
+      color: #3bb9ba;
+      margin-top: 200px;
+      margin-left: 275px;
+      position: absolute; }
+    .index .background .transparentBackground {
+      width: 100%;
+      height: 1000px;
+      background-color: black;
+      margin-top: -1000px;
+      margin-left: -30px;
+      position: absolute;
+      opacity: .5; }
+
+.blueDivider {
+  background-color: #6291a9;
+  width: 75%;
+  padding: 1px;
+  margin-left: 25%; }
+
+.infoNav {
+  background-color: #1b3c50;
+  color: #f7f7f7;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  margin-right: 1%;
+  width: 23%; }
+  .infoNav aside h1 {
+    text-align: center;
+    margin: 10% 2% 15% 0%; }
+  .infoNav aside h2 {
+    line-height: 3;
+    text-align: left;
+    margin-left: 10%; }
+  .infoNav aside ul {
+    text-align: center;
+    line-height: 3;
+    text-align: left;
+    margin-left: 20%; }
+    .infoNav aside ul li a {
+      text-decoration: none;
+      color: #f7f7f7; }
+
+.mainSection {
+  display: inline-block; }
+
+.selfie {
+  margin-left: 15%;
+  margin-top: 20%;
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  border: solid 2px #50e3c2; }
+
+.schedule {
+  background-color: #f7f7f7;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed; }
+
+.activePage {
+  color: #52a5af;
+  text-decoration: none; }
+
+.notActive {
+  text-decoration: none;
+  color: #1b3c50; }
 
 .home {
   background-color: #f7f7f7;
@@ -268,7 +531,9 @@ table {
       color: #59aac0; }
     .home .scrolling h5 {
       color: #59aac0; }
+ develop/coursesAddition
     .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .courses .studentInfo p, .courses .studentInfo .home .scrolling p, .home .scrolling .courses .courseBox h3, .courses .courseBox .home .scrolling h3, .home .scrolling .courses .registration .majorsOne h2, .courses .registration .majorsOne .home .scrolling h2, .home .scrolling .courses .registration .cset160 h2, .courses .registration .cset160 .home .scrolling h2, .home .scrolling .courses .registration .cset180 h2, .courses .registration .cset180 .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .cis .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .english .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .history .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .math .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .pe .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .science .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .ss .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .cis .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .english .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .history .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .math .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .pe .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .science .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .ss p, .courses .courseSelection .genEdNames .ss .home .scrolling p, .home .scrolling .schedule .studentInfo p, .schedule .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
+
       color: #202020; }
     .home .scrolling .robo13 {
       color: #373737;
@@ -504,6 +769,22 @@ table {
     line-height: 2; }
   .listView p {
     margin-bottom: 2%; }
+
+aside li:hover {
+  background-color: #0b2535;
+  cursor: pointer;
+  width: 100%; }
+
+.viewAs .listToggle:hover {
+  cursor: pointer; }
+.viewAs .calendarToggle:hover {
+  cursor: pointer; }
+
+.dateLogOut {
+  margin-left: 90%; }
+
+.listView:hover {
+  cursor: pointer; }
 
 .calendarView h3 {
   color: #48a2ba;
@@ -827,53 +1108,5 @@ table {
     background-color: #F5F5F5; }
   .academic .flexed::-webkit-scrollbar-thumb {
     background-color: #38bfba; }
-
-.blueDivider {
-  background-color: #6291a9;
-  width: 75%;
-  padding: 1px;
-  margin-left: 25%; }
-
-.infoNav {
-  background-color: #1b3c50;
-  color: #f7f7f7;
-  display: inline-block;
-  float: left;
-  height: 100%;
-  margin-right: 1%;
-  width: 23%; }
-  .infoNav aside h1 {
-    text-align: center;
-    margin: 10% 2% 15% 0%; }
-  .infoNav aside h2 {
-    line-height: 3;
-    text-align: left;
-    margin-left: 10%; }
-  .infoNav aside ul {
-    text-align: center;
-    line-height: 3;
-    text-align: left;
-    margin-left: 20%; }
-    .infoNav aside ul li a {
-      text-decoration: none;
-      color: #f7f7f7; }
-
-.mainSection {
-  display: inline-block; }
-
-.selfie {
-  margin-left: 15%;
-  margin-top: 20%;
-  width: 150px;
-  height: 150px;
-  border-radius: 60%;
-  border: solid 2px #50e3c2; }
-
-.schedule {
-  background-color: #f7f7f7;
-  height: 94%;
-  width: 95%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  position: fixed; }
 
 /*# sourceMappingURL=style.css.map */

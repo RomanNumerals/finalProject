@@ -54,3 +54,13 @@
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: fixed;
 }
+.activePage{
+  color: $logOut;
+  text-decoration: none;
+  @extend .mont10R;
+}
+.notActive {
+  text-decoration: none;
+  @extend .mont10R;
+  color: $darkBlue;
+}
