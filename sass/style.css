@@ -582,42 +582,114 @@ table {
   width: 95%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   position: fixed; }
-
-.bigSection {
-  position: absolute; }
-  .bigSection .nameBox {
-    margin-left: 93%;
-    margin-top: 5%;
-    width: 368px;
-    height: 37.9px;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #202020; }
-    .bigSection .nameBox h3 {
-      font-size: 12px;
-      font-weight: bold;
-      color: #48a2ba; }
-  .bigSection .firstSection {
-    margin-left: 93%;
-    margin-top: 5%;
-    width: 241px;
-    height: 66.9px;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    line-height: 1.4;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #202020; }
-    .bigSection .firstSection h3 {
-      font-size: 12px;
-      font-weight: bold;
-      line-height: 1.75;
-      color: #2e0a3a; }
-    .bigSection .firstSection .editOne {
+  .settings .bigSection {
+    position: absolute; }
+    .settings .bigSection .nameBox {
+      margin-left: 93%;
+      margin-top: 5%;
+      width: 368px;
+      height: 37.9px;
+      font-family: 'Montserrat';
+      font-size: 15px;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020; }
+      .settings .bigSection .nameBox h3 {
+        font-size: 12px;
+        font-weight: bold;
+        color: #48a2ba; }
+    .settings .bigSection .firstSection {
+      margin-left: 93%;
+      margin-top: 5%;
+      width: 241px;
+      height: 66.9px;
+      font-family: 'Montserrat';
+      font-size: 15px;
+      line-height: 1.4;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020; }
+      .settings .bigSection .firstSection h3 {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: #2e0a3a; }
+      .settings .bigSection .firstSection .editOne {
+        margin-left: 150%;
+        margin-top: -24%;
+        width: 36px;
+        height: 21px;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #2e0a3a; }
+      .settings .bigSection .firstSection .cellPhone {
+        margin-top: 30%;
+        width: 241px;
+        height: 45.9px;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 1.4;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #202020; }
+      .settings .bigSection .firstSection .phoneNumber {
+        margin-top: -9%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: #2e0a3a; }
+      .settings .bigSection .firstSection .editTwo {
+        margin-left: 150%;
+        margin-top: -18.5%;
+        margin-bottom: 25%;
+        width: 36px;
+        height: 21px;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #2e0a3a; }
+      .settings .bigSection .firstSection .collegeEmail {
+        margin-top: 9%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: #2e0a3a; }
+      .settings .bigSection .firstSection .schmidttEmail {
+        margin-top: 1.5%;
+        width: 241px;
+        height: 45.9px;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 1.4;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #202020; }
+    .settings .bigSection .secondSection .schoolAddress {
+      margin-left: 200%;
+      margin-top: -102%;
+      width: 231px;
+      height: 95.7px;
+      font-family: 'Montserrat';
+      font-size: 15px;
+      line-height: 1.4;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020; }
+      .settings .bigSection .secondSection .schoolAddress h3 {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: #2e0a3a; }
+    .settings .bigSection .secondSection .editThree {
       margin-left: 150%;
-      margin-top: -24%;
+      margin-top: -36%;
       width: 36px;
       height: 21px;
       font-family: 'Montserrat';
@@ -627,26 +699,26 @@ table {
       letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
-    .bigSection .firstSection .cellPhone {
-      margin-top: 30%;
+    .settings .bigSection .secondSection .altPhone {
+      margin-top: 32%;
       width: 241px;
       height: 45.9px;
       font-family: 'Montserrat';
-      font-size: 15px;
-      line-height: 1.4;
-      letter-spacing: 0.2px;
-      text-align: left;
-      color: #202020; }
-    .bigSection .firstSection .phoneNumber {
-      margin-top: -9%;
       font-size: 12px;
       font-weight: bold;
       line-height: 1.75;
+      letter-spacing: 0.2px;
+      text-align: left;
       color: #2e0a3a; }
-    .bigSection .firstSection .editTwo {
+    .settings .bigSection .secondSection .altNumber {
+      margin-top: -10%;
+      font-size: 15px;
+      font-weight: normal;
+      line-height: 1.4;
+      color: #202020; }
+    .settings .bigSection .secondSection .editFour {
       margin-left: 150%;
-      margin-top: -18.5%;
-      margin-bottom: 25%;
+      margin-top: -15%;
       width: 36px;
       height: 21px;
       font-family: 'Montserrat';
@@ -656,14 +728,8 @@ table {
       letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
-    .bigSection .firstSection .collegeEmail {
-      margin-top: 9%;
-      font-size: 12px;
-      font-weight: bold;
-      line-height: 1.75;
-      color: #2e0a3a; }
-    .bigSection .firstSection .schmidttEmail {
-      margin-top: 1.5%;
+    .settings .bigSection .secondSection .altEmail {
+      margin-top: 22.5%;
       width: 241px;
       height: 45.9px;
       font-family: 'Montserrat';
@@ -672,106 +738,39 @@ table {
       letter-spacing: 0.2px;
       text-align: left;
       color: #202020; }
-  .bigSection .secondSection .schoolAddress {
-    margin-left: 200%;
-    margin-top: -102%;
-    width: 231px;
-    height: 95.7px;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    line-height: 1.4;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #202020; }
-    .bigSection .secondSection .schoolAddress h3 {
+    .settings .bigSection .secondSection .henriGmail {
+      margin-top: -9.5%;
       font-size: 12px;
       font-weight: bold;
       line-height: 1.75;
       color: #2e0a3a; }
-  .bigSection .secondSection .editThree {
-    margin-left: 150%;
-    margin-top: -36%;
-    width: 36px;
-    height: 21px;
-    font-family: 'Montserrat';
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.75;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #2e0a3a; }
-  .bigSection .secondSection .altPhone {
-    margin-top: 32%;
-    width: 241px;
-    height: 45.9px;
-    font-family: 'Montserrat';
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.75;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #2e0a3a; }
-  .bigSection .secondSection .altNumber {
-    margin-top: -10%;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 1.4;
-    color: #202020; }
-  .bigSection .secondSection .editFour {
-    margin-left: 150%;
-    margin-top: -15%;
-    width: 36px;
-    height: 21px;
-    font-family: 'Montserrat';
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.75;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #2e0a3a; }
-  .bigSection .secondSection .altEmail {
-    margin-top: 22.5%;
-    width: 241px;
-    height: 45.9px;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    line-height: 1.4;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #202020; }
-  .bigSection .secondSection .henriGmail {
-    margin-top: -9.5%;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.75;
-    color: #2e0a3a; }
-  .bigSection .secondSection .editFive {
-    margin-left: 150%;
-    margin-top: -17%;
-    width: 36px;
-    height: 21px;
-    font-family: 'Montserrat';
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1.75;
-    letter-spacing: 0.2px;
-    text-align: left;
-    color: #2e0a3a; }
-  .bigSection .saveBox {
-    margin-left: 303%;
-    margin-top: 65%;
-    width: 130px;
-    height: 48px;
-    background-color: #3bb9ba; }
-    .bigSection .saveBox .save {
-      padding-top: 10%;
-      margin-left: -8%;
-      width: 144.9px;
-      height: 33px;
+    .settings .bigSection .secondSection .editFive {
+      margin-left: 150%;
+      margin-top: -17%;
+      width: 36px;
+      height: 21px;
       font-family: 'Montserrat';
-      font-size: 16px;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.75;
       letter-spacing: 0.2px;
-      text-align: center;
-      color: #f7f7f7; }
+      text-align: left;
+      color: #2e0a3a; }
+    .settings .bigSection .saveBox {
+      margin-left: 303%;
+      margin-top: 65%;
+      width: 130px;
+      height: 48px;
+      background-color: #3bb9ba; }
+      .settings .bigSection .saveBox .save {
+        padding-top: 10%;
+        margin-left: -8%;
+        width: 144.9px;
+        height: 33px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #f7f7f7; }
 
 /*# sourceMappingURL=style.css.map */
