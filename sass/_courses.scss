@@ -53,7 +53,7 @@
         height: 35%;
         width: 70%;
         margin: 8% 0 0 2%;
-        display: inline-block; //should be inline-block when going to show
+        display: none; //should be inline-block when going to show
         line-height: 1.5;
         h2 {
             text-align: center;
@@ -258,6 +258,62 @@
                 @extend .cis;
                 border-bottom: none;
             }
+        }
+    }
+    .cisSelection {
+        background-color: #ffffff;
+        height: 58%;
+        width: 73%;
+        margin: 3% 0 0 25%;
+        display: flex;
+        flex-wrap: wrap;
+        .course {
+            width: 100%;
+            display: inherit;
+            padding: 3% 0 0 4%;
+            h2 {
+                @extend .mont14B;
+                color: $tutor;
+                padding-right: 55%;
+            }
+            h3 {
+                @extend .mont14B;
+                color: $tutor;
+            }
+        }
+        .bars {
+            width: 95%;
+            display: inherit;
+            margin-top: -16%;
+            .progressBar {
+                background-color: #50e3c2;
+                width: 50%;
+                height: 3%;
+                margin-left: 4%;
+            }
+            .progressBar2 {
+                background-color: #359ca1;
+                width: 50%;
+                height: 3%;
+            }
+        }
+        .genEd {
+            margin: -28% 0 0 4%;
+            @extend .mont14R;
+            color: $slateGrey;
+        }
+        .cis {
+            margin: -20% 0 0 -15%;
+            h2 {
+                @extend .mont15;
+                color: #44ccc0;
+            }
+        }
+        .thinLine {
+            background-color: #359ca1;
+            height: .50%;
+            width: 80%;
+            margin: -15% 0 0 -33%;
         }
     }
 }
