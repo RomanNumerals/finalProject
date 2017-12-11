@@ -16,7 +16,7 @@
   font-size: 10px;
   letter-spacing: 0.2px; }
 
-.mont10B, .date, .viewAs, .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .recentGrades h2 {
+.mont10B, .courses .viewAs h3, .courses .viewAs p, .date, .viewAs, .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .recentGrades h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 10px;
@@ -34,7 +34,9 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .currentProgram h3, .studentInfo h3, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
+ develop/coursesAddition
+.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .courses .currentProgram h3, .courses .studentInfo h3, .courses .uc, .courses .courseBox h2, .courses .registration .majorsOne form, .courses .registration .cset160 form, .courses .registration .cset180 form, .courses .registration .help div, .courses .registration .help button, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -46,19 +48,21 @@
   font-size: 13px;
   letter-spacing: 0.2px; }
 
-.mont14R {
+.mont14R, .courses .registration .core, .courses .courseSelection .genEd {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont14B {
+.mont14B, .courses .registration .course h2, .courses .registration .course h3, .courses .courseSelection .course h2, .courses .courseSelection .course h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .studentInfo p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
+develop/coursesAddition
+.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .courses .studentInfo p, .courses .courseBox h3, .courses .registration .majorsOne h2, .courses .registration .cset160 h2, .courses .registration .cset180 h2, .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .ss p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
+
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -527,7 +531,9 @@ table {
       color: #59aac0; }
     .home .scrolling h5 {
       color: #59aac0; }
-    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .studentInfo p, .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
+ develop/coursesAddition
+    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .courses .studentInfo p, .courses .studentInfo .home .scrolling p, .home .scrolling .courses .courseBox h3, .courses .courseBox .home .scrolling h3, .home .scrolling .courses .registration .majorsOne h2, .courses .registration .majorsOne .home .scrolling h2, .home .scrolling .courses .registration .cset160 h2, .courses .registration .cset160 .home .scrolling h2, .home .scrolling .courses .registration .cset180 h2, .courses .registration .cset180 .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .cis .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .english .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .history .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .math .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .pe .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .science .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .ss .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .cis .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .english .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .history .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .math .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .pe .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .science .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .ss p, .courses .courseSelection .genEdNames .ss .home .scrolling p, .home .scrolling .schedule .studentInfo p, .schedule .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
+
       color: #202020; }
     .home .scrolling .robo13 {
       color: #373737;
@@ -571,19 +577,166 @@ table {
     margin: 1% 0 2% 24%; }
   .courses .mainSection {
     padding: 2%; }
-
-.currentProgram {
-  line-height: 1.5;
-  margin-bottom: 5%; }
-  .currentProgram h3 {
-    color: #48a2ba; }
-
-.studentInfo {
-  display: inline-flex; }
-  .studentInfo div {
-    padding-right: 60px; }
-  .studentInfo h3 {
-    color: #2e0a3a; }
+  .courses .currentProgram {
+    line-height: 1.5;
+    margin-bottom: 5%; }
+    .courses .currentProgram h3 {
+      color: #48a2ba; }
+  .courses .studentInfo {
+    display: inline-flex; }
+    .courses .studentInfo div {
+      padding-right: 60px; }
+    .courses .studentInfo h3 {
+      color: #2e0a3a; }
+  .courses .uc {
+    color: #48a2ba;
+    margin-left: 25%; }
+  .courses .viewAs {
+    margin: -1% 0 0 80%; }
+    .courses .viewAs h3 {
+      color: #4da4bc; }
+    .courses .viewAs p {
+      color: #5bd8c8; }
+  .courses .courseBox {
+    background-color: #ffffff;
+    height: 35%;
+    width: 70%;
+    margin: 8% 0 0 2%;
+    display: inline-block;
+    line-height: 1.5; }
+    .courses .courseBox h2 {
+      text-align: center;
+      padding-top: 10%;
+      color: #48a2ba; }
+    .courses .courseBox h3 {
+      text-align: center;
+      color: #202020; }
+    .courses .courseBox button {
+      margin: 2% 0 0 40%;
+      height: 20%;
+      width: 20%;
+      background-color: #37beba;
+      color: #f7f7f7; }
+  .courses .registration {
+    background-color: #ffffff;
+    height: 50%;
+    width: 72%;
+    margin: 3% 0 0 25%;
+    display: none;
+    flex-wrap: wrap; }
+    .courses .registration .course {
+      width: 100%;
+      display: inherit;
+      padding: 3% 0 0 4%; }
+      .courses .registration .course h2 {
+        color: #33c7ba;
+        padding-right: 55%; }
+      .courses .registration .course h3 {
+        color: #33c7ba; }
+    .courses .registration .bars {
+      width: 95%;
+      display: inherit;
+      margin-top: -7%; }
+      .courses .registration .bars .progressBar {
+        background-color: #50e3c2;
+        width: 50%;
+        height: 6%;
+        margin-left: 4%; }
+      .courses .registration .bars .progressBar2 {
+        background-color: #359ca1;
+        width: 50%;
+        height: 6%; }
+    .courses .registration .core {
+      width: 90%;
+      margin: -10% 0 0 4%;
+      color: #202020; }
+    .courses .registration .majorsOne {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: -10%; }
+      .courses .registration .majorsOne form {
+        margin-bottom: 4%;
+        color: #48a2ba; }
+      .courses .registration .majorsOne h2 {
+        color: #202020; }
+    .courses .registration .cset160 {
+      width: 50%; }
+      .courses .registration .cset160 form {
+        margin: 0 0 4% 22%;
+        color: #48a2ba; }
+      .courses .registration .cset160 h2 {
+        margin-left: 22%;
+        color: #202020; }
+    .courses .registration .cset180 {
+      width: 50%; }
+      .courses .registration .cset180 form {
+        margin-bottom: 4%;
+        color: #48a2ba; }
+      .courses .registration .cset180 h2 {
+        color: #202020; }
+    .courses .registration .help {
+      width: 100%;
+      display: flex; }
+      .courses .registration .help div {
+        width: 80%;
+        text-align: right;
+        color: #50e3c2; }
+        .courses .registration .help div h2 {
+          margin: 4%; }
+      .courses .registration .help button {
+        height: 65%;
+        width: 15%;
+        color: #ffffff;
+        background-color: #3bb9ba; }
+  .courses .courseSelection {
+    background-color: #ffffff;
+    height: 55%;
+    width: 72%;
+    margin: 3% 0 0 25%;
+    display: none;
+    flex-wrap: wrap; }
+    .courses .courseSelection .course {
+      width: 100%;
+      display: inherit;
+      padding: 3% 0 0 4%; }
+      .courses .courseSelection .course h2 {
+        color: #33c7ba;
+        padding-right: 55%; }
+      .courses .courseSelection .course h3 {
+        color: #33c7ba; }
+    .courses .courseSelection .bars {
+      width: 95%;
+      display: inherit;
+      margin-top: -8%; }
+      .courses .courseSelection .bars .progressBar {
+        background-color: #50e3c2;
+        width: 50%;
+        height: 3%;
+        margin-left: 4%; }
+      .courses .courseSelection .bars .progressBar2 {
+        background-color: #359ca1;
+        width: 50%;
+        height: 3%; }
+    .courses .courseSelection .genEd {
+      margin: -12% 0 0 4%;
+      color: #202020; }
+    .courses .courseSelection .genEdNames {
+      width: 80%;
+      height: 50%;
+      margin: -16% 0 0 8%; }
+      .courses .courseSelection .genEdNames .cis, .courses .courseSelection .genEdNames .english, .courses .courseSelection .genEdNames .history, .courses .courseSelection .genEdNames .math, .courses .courseSelection .genEdNames .pe, .courses .courseSelection .genEdNames .science, .courses .courseSelection .genEdNames .ss {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #359ca1; }
+        .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .ss h2 {
+          color: #44ccc0;
+          margin: 2% 0 2% 0; }
+        .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .ss p {
+          color: #44ccc0;
+          margin-top: 2%; }
+      .courses .courseSelection .genEdNames .ss {
+        border-bottom: none; }
 
 .mainContain {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
