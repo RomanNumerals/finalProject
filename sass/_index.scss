@@ -1,127 +1,236 @@
 .index {
-    background-color: $offWhite;
-    height: 94%;
-    width: 95%;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    position: fixed;
-    header {
-        display: flex;
-        padding: 30px 0 30px 0;
-        nav {
-            margin-left: 2%;
-            a {
-                text-decoration: none;
-            }
-        }
-        div {
-            padding-left: 80%;
-            text-align: right;
-        }
-    }
-    .blueDivider {
-        margin-left: 25%;
-        width: 70%;
-        z-index: 1;
-    }
-    .mainSection {
-        .cset {
-            margin-left: 2%;
-            padding: 25px 0 25px 0;
-            line-height: 1.5;
-            h3 {
-                @extend .mont12B;
-                color: $seaBlue;
-            }
-            p {
-                @extend .mont15;
-                color: $slateGrey
-            }
-        }
-        .csetStatus {
-            display: block;
-            line-height: 1.5;
-            .current {
-                display: inline-block;
-                padding: 0 80px 30px 10px;
-            }
-            .hours {
-                display: inline-block;
-                padding-right: 80px;
-            }
-            .standing {
-                display: inline-block;
-            }
-            h3 {
-                @extend .mont12B;
-                color: $ashPurp;
-            }
-            p {
-                @extend .mont15;
-                color: $slateGrey;
-            }
-        }
-    }
-    .scrolling {
-        overflow-y: visible;
-        overflow-x: hidden;
-        height: 430px;
-        h3 {
-            @extend .mont12B;
-            color: $seaBlue;
-        }
-        h4 {
-            @extend .mont12B;
-            color: $trickBlue;
-        }
-        h5 {
-            @extend .mont12B;
-            color: $trickBlue;
-        }
-        .mont15 {
-            color: $slateGrey;
-        }
-        .robo13 {
-            color: $grey;
-            line-height: 1.5;
-        }
-        .blueDivider {
-            width: 95%;
-            margin-left: 5px;
-        }
-        .flex {
-            display: flex;
-            line-height: 1;
-            padding: 0 0 3% 1%;
-            .leftFlex {
-                width: 60%;
-            }
-            .rightFlex {
-                width: 40%;
-            }
-            h3 {
-                padding: 20px 0 20px 0;
-            }
-            h4 {
-                padding-bottom: 3%;
-            }
-            h5 {
-                padding: 3% 0 4% 0;
-            }
-            p {
-                width: 90%;
-                line-height: 1.5;
-                padding-bottom: 1%;
-            }
-        }
-    }
-    .scrolling::-webkit-scrollbar-track {
-        background-color: white;
-    }
-    .scrolling::-webkit-scrollbar {
-        width: 6px;
-        background-color: #F5F5F5;
-    }
-    .scrolling::-webkit-scrollbar-thumb {
-        background-color: #38bfba;
-    }
+	background-image: linear-gradient(126deg, #2fcfba, #47a1ba);
+	.background {
+		background-color: $offWhite;
+		margin-left: 2%;
+		width: 90%;
+		.whiteBackground {
+			margin: 30px;
+			padding: 20px;
+			width: 100%;
+			height: 720px;
+			background-color: #f7f7f7;
+		}
+		.borderBar {
+			width: 100%;
+			height: 2px;
+			background-color: #6291a9;
+			margin-left: -1%;
+			margin-top: 1%;
+		}
+		.loginWhiteBox {
+			width: 80%;
+			height: 370px;
+			background-color: #ffffff;
+			margin: 150px auto;
+		}
+		.thaddeusStevensText {
+			width: 70%;
+			height: 40px;
+			font-family: Montserrat;
+			font-size: 21px;
+			font-weight: 600;
+			letter-spacing: 0.2px;
+			text-align: center;
+			color: #202020;
+			margin: 60px 0 0 0px;
+			position: absolute;
+		}
+		.studentPortal {
+			width: 70%;
+			height: 69px;
+			font-family: Montserrat;
+			font-size: 21px;
+			letter-spacing: 0.2px;
+			text-align: center;
+			color: #3bb9ba;
+			margin: 110px 0 0 0;
+			position: absolute;
+		}
+		.emailBox {
+			width: 65%;
+			height: 6%;
+			background-color: #f7f7f7;
+			border: solid 1px #3bb9ba;
+			margin-top: 140px;
+			margin-left: 3%;
+			position: absolute;
+		}
+		.passwordBox {
+			width: 65%;
+			height: 6%;
+			background-color: #f7f7f7;
+			border: solid 1px #3bb9ba;
+			margin-top: 200px;
+			margin-left: 3%;
+			position: absolute;
+		}
+		.submitButton {
+			width: 15%;
+			height: 48px;
+			background-color: #3bb9ba;
+			margin: 280px 0 0 150px;
+			position: absolute;
+		}
+		div {
+			margin-left: 20%;
+		}
+		.forgotPassword {
+			width: 30%;
+			height: 33px;
+			font-family: Montserrat;
+			font-size: 12px;
+			letter-spacing: 0.2px;
+			text-align: center;
+			color: #3bb9ba;
+			margin-top: 300px;
+			margin-left: 20%;
+			position: absolute;
+		}
+		.submitButton {
+			width: 10%;
+			margin-left: 10%;
+		}
+		form {
+			width: 80%;
+		}
+		.forgotPasswordBox {
+			width: 34%;
+			height: 350px;
+			background-color: #f7f7f7;
+			border: solid 1px #979797;
+			margin: -590px 0px 0px 450px;
+			position: absolute;
+		}
+		.forgotPasswordBar {
+			width: 100%;
+			height: 8px;
+			background-color: #4a4a4a;
+			margin: 0 0 0 0px;
+			position: absolute;
+		}
+		.forgotPasswordBlueBar {
+			width: 33%;
+			height: 8px;
+			background-color: #3bb9ba;
+			margin: 0 0 0 0;
+			position: absolute;
+		}
+		.forgotPasswordText {
+			width: 80%;
+			height: 18px;
+			font-family: Montserrat;
+			font-size: 14px;
+			font-weight: bold;
+			letter-spacing: 0.2px;
+			text-align: left;
+			color: #33c7ba;
+			margin: 50px 0 0 50px;
+			position: absolute;
+		}
+		.forgotPasswordTextParagraph {
+			width: 90%;
+			height: 101px;
+			font-family: Montserrat;
+			font-size: 14px;
+			line-height: 1.5;
+			letter-spacing: 0.2px;
+			text-align: left;
+			color: #202020;
+			margin-top: 100px;
+			margin-left: 50px;
+			position: absolute;
+		}
+		.forgotPasswordAnswer {
+			width: 60%;
+			height: 48px;
+			background-color: #ffffff;
+			border: solid 1px black;
+			margin-top: 200px;
+			margin-left: 50px;
+			position: absolute;
+		}
+		.forgotPasswordAnswerWrong {
+			width: 350px;
+			height: 48px;
+			background-color: #ffffff;
+			border: solid 1px #d0021b;
+			margin-top: 200px;
+			margin-left: 50px;
+			position: absolute;
+		}
+		.forgotPasswordSubmit {
+			width: 20%;
+			height: 42px;
+			background-color: #3bb9ba;
+			color: white;
+			margin-top: 280px;
+			margin-left: 50px;
+			position: absolute;
+		}
+		.incorrectAnswer {
+			width: 180.2px;
+			height: 18px;
+			font-family: Montserrat;
+			font-size: 14px;
+			letter-spacing: 0.2px;
+			text-align: left;
+			color: #d0021b;
+			margin-top: 290px;
+			margin-left: 275px;
+			position: absolute;
+		}
+		.forgotPasswordBlueBarSecond {
+			width: 66%;
+			height: 8px;
+			background-color: #3bb9ba;
+			margin: 0 0 0 0;
+			position: absolute;
+		}
+		.forgotPasswordBlueBarThird {
+			width: 100%;
+			height: 8px;
+			background-color: #3bb9ba;
+			margin: 0 0 0 0;
+			position: absolute;
+		}
+		.forgotPasswordBoxThird {
+			width: 42.5%;
+			height: 265px;
+			background-color: #f7f7f7;
+			border: solid 1px #979797;
+			margin: -590px 0px 0px 450px;
+			position: absolute;
+		}
+		.forgotPasswordSubmitFinal {
+			width: 114px;
+			height: 42px;
+			background-color: #3bb9ba;
+			margin-top: 180px;
+			margin-left: 50px;
+			position: absolute;
+		}
+		.resendEmail {
+			width: 30%;
+			height: 18px;
+			font-family: Montserrat;
+			font-size: 12px;
+			font-weight: bold;
+			letter-spacing: 0.2px;
+			text-align: center;
+			color: #3bb9ba;
+			margin-top: 200px;
+			margin-left: 275px;
+			position: absolute;
+		}
+		.transparentBackground {
+			width: 100%;
+			height: 1000px;
+			background-color: black;
+			margin-top: -1000px;
+			margin-left: -30px;
+			position: absolute;
+			opacity: .5;
+		}
+	}
 }

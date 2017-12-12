@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="sass/style.css">
@@ -7,7 +8,10 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
   <title></title>
+  <script type="text/javascript" src="JSLibrary/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="JScript/scheduleToggle.js"></script>
 </head>
+
 <body class="mainContain">
   <section class="schedule">
     <section class="infoNav">
@@ -16,9 +20,10 @@
         <h1 class="mont15">Henrietta Schmidtt</h1>
         <h2 class="mont11">ACADEMIC SERVICES</h2>
         <ul class="mont13">
-          <li>Current Schedule</li>
-          <li>Grades &amp; Reporting</li>
-          <li>Upcoming Courses</li>
+          <li><a href="academic.html">Academic Dashboard</a></li>
+          <li><a href="schedule.html">Current Schedule</a></li>
+          <li><a href="grades.html">Grades &amp; Reporting</a></li>
+          <li><a href="courses.html">Upcoming Courses</a></li>
         </ul>
         <h2 class="mont11">COLLEGE INFORMATION</h2>
         <ul class="mont13">
@@ -30,19 +35,16 @@
     </section>
     <header>
       <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a class="notActive" href="home.html">Home</a>
+        <a class="notActive" href="academic.html">Academic Dashboard</a>
+        <a class="activePage" href="schedule.html">Current Schedule</a>
       </nav>
-      <div class="date">DATE</div>
-      <div>
-        <div class="logOut">LOG OUT?</div>
-
+      <div class="dateLogOut">
+        <p class="mont10B">Date</p>
+        <p class="mont10R">LOG OUT</p>
       </div>
     </header>
     <div class="blueDivider"></div>
-
     <!--This section below is divided so as to begin flexbox and is fixed in position-->
     <section class="mainSection">
       <div class="currentProgram">
@@ -70,11 +72,11 @@
     <!--This section is for the start of the schedule-->
     <div class="viewAs">
       <h3>View as:</h3>
-      <p>List</p>
+      <h3 class="listToggle">List</h3>
       <span>|</span>
-      <p>Calendar</p>
+      <h3 class="calendarToggle">Calendar</h3>
     </div>
-    <div class="listView hide">
+    <section class="listView">
       <h3>CURRENT SCHEDULE:</h3>
       <h4>CSET 105, M, 12:00 - 4:30pm</h4>
       <p>Intro to Web Applications</p>
@@ -88,7 +90,7 @@
       <p>English Composition</p>
       <h4>Math 100, T &amp; R, 8am - 9:30pm</h4>
       <p>College Algebra</p>
-    </div>
+    </section>
     <!--This section below is for the calendar view, subject to change. Split into 5 divs for flexbox-->
     <section class="calendarView">
       <h3> CURRENT SCHEDULE:</h3>
@@ -151,5 +153,10 @@
         </div>
       </div>
     </section>
-  </body>
-  </html>
+  </section>
+  <footer>
+    <script type="text/javascript" src="scripts.js"></script>
+  </footer>
+</body>
+
+</html>

@@ -26,7 +26,13 @@
             text-align: center;
             line-height: 3;
             text-align: left;
-            margin-left: 20%
+            margin-left: 20%;
+            li {
+                a {
+                    text-decoration: none;
+                    color: $offWhite;
+                }
+            }
         }
     }
 }
@@ -47,4 +53,14 @@
     width: 95%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: fixed;
+}
+.activePage{
+  color: $logOut;
+  text-decoration: none;
+  @extend .mont10R;
+}
+.notActive {
+  text-decoration: none;
+  @extend .mont10R;
+  color: $darkBlue;
 }

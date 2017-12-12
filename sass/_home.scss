@@ -1,0 +1,127 @@
+.home {
+    background-color: $offWhite;
+    height: 94%;
+    width: 95%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    position: fixed;
+    header {
+        display: flex;
+        padding: 30px 0 30px 0;
+        nav {
+            margin-left: 2%;
+            a {
+                text-decoration: none;
+            }
+        }
+        div {
+            padding-left: 80%;
+            text-align: right;
+        }
+    }
+    .blueDivider {
+        margin-left: 25%;
+        width: 70%;
+        z-index: 1;
+    }
+    .mainSection {
+        .cset {
+            margin-left: 2%;
+            padding: 25px 0 25px 0;
+            line-height: 1.5;
+            h3 {
+                @extend .mont12B;
+                color: $seaBlue;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey
+            }
+        }
+        .csetStatus {
+            display: block;
+            line-height: 1.5;
+            .current {
+                display: inline-block;
+                padding: 0 80px 30px 10px;
+            }
+            .hours {
+                display: inline-block;
+                padding-right: 80px;
+            }
+            .standing {
+                display: inline-block;
+            }
+            h3 {
+                @extend .mont12B;
+                color: $ashPurp;
+            }
+            p {
+                @extend .mont15;
+                color: $slateGrey;
+            }
+        }
+    }
+    .scrolling {
+        overflow-y: visible;
+        overflow-x: hidden;
+        height: 430px;
+        h3 {
+            @extend .mont12B;
+            color: $seaBlue;
+        }
+        h4 {
+            @extend .mont12B;
+            color: $trickBlue;
+        }
+        h5 {
+            @extend .mont12B;
+            color: $trickBlue;
+        }
+        .mont15 {
+            color: $slateGrey;
+        }
+        .robo13 {
+            color: $grey;
+            line-height: 1.5;
+        }
+        .blueDivider {
+            width: 93%;
+            margin-left: 12px;
+        }
+        .flex {
+            display: flex;
+            line-height: 1;
+            padding: 0 0 3% 1%;
+            .leftFlex {
+                width: 60%;
+            }
+            .rightFlex {
+                width: 40%;
+            }
+            h3 {
+                padding: 20px 0 20px 0;
+            }
+            h4 {
+                padding-bottom: 3%;
+            }
+            h5 {
+                padding: 3% 0 4% 0;
+            }
+            p {
+                width: 90%;
+                line-height: 1.5;
+                padding-bottom: 1%;
+            }
+        }
+    }
+    .scrolling::-webkit-scrollbar-track {
+        background-color: white;
+    }
+    .scrolling::-webkit-scrollbar {
+        width: 6px;
+        background-color: #F5F5F5;
+    }
+    .scrolling::-webkit-scrollbar-thumb {
+        background-color: #38bfba;
+    }
+}
