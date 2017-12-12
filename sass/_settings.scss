@@ -1,0 +1,212 @@
+<<<<<<< HEAD
+.settings {
+  background-color: $offWhite;
+  height: 94%;
+  width: 95%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: fixed;
+  .bigSection{
+    position: absolute;
+    .nameBox{
+      margin-left: 93%;
+      margin-top: 5%;
+      width: 368px;
+      height: 37.9px;
+      @extend .mont15;
+      text-align: left;
+      color: $slateGrey;
+      h3{
+        font-size: 12px;
+        font-weight: bold;
+        color: $seaBlue;
+      }
+    }
+    .firstSection{
+      margin-left: 93%;
+      margin-top: 5%;
+      width: 241px;
+      height: 66.9px;
+      @extend .mont15;
+      line-height: 1.4;
+      text-align: left;
+      color: $slateGrey;
+      h3{
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: $ashPurp;
+      }
+      .editOne{
+        margin-left: 150%;
+        margin-top: -24%;
+        width: 36px;
+        height: 21px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+      .cellPhone{
+        margin-top: 30%;
+        width: 241px;
+        height: 45.9px;
+        @extend .mont15;
+        line-height: 1.4;
+        text-align: left;
+        color: $slateGrey;
+      }
+      .phoneNumber{
+        margin-top: -9%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: $ashPurp;
+      }
+      .editTwo{
+        margin-left: 150%;
+        margin-top: -18.5%;
+        margin-bottom: 25%;
+        width: 36px;
+        height: 21px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+      .collegeEmail{
+        margin-top: 9%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: $ashPurp;
+      }
+      .schmidttEmail{
+        margin-top: 1.5%;
+        width: 241px;
+        height: 45.9px;
+        @extend .mont15;
+        line-height: 1.4;
+        text-align: left;
+        color: $slateGrey;
+      }
+    }
+    .secondSection{
+      .schoolAddress{
+        margin-left: 200%;
+        margin-top: -102%;
+        width: 231px;
+        height: 95.7px;
+        @extend .mont15;
+        line-height: 1.4;
+        text-align: left;
+        color: $slateGrey;
+        h3{
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 1.75;
+          color: $ashPurp;
+        }
+      }
+      .editThree{
+        margin-left: 150%;
+        margin-top: -36%;
+        width: 36px;
+        height: 21px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+      .altPhone{
+        margin-top: 32%;
+        width: 241px;
+        height: 45.9px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+      .altNumber{
+        margin-top: -10%;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 1.4;
+        color: $slateGrey;
+      }
+      .editFour{
+        margin-left: 150%;
+        margin-top: -15%;
+        width: 36px;
+        height: 21px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+      .altEmail{
+        margin-top: 22.5%;
+        width: 241px;
+        height: 45.9px;
+        @extend .mont15;
+        line-height: 1.4;
+        text-align: left;
+        color: $slateGrey;
+      }
+      .henriGmail{
+        margin-top: -9.5%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.75;
+        color: $ashPurp;
+      }
+      .editFive{
+        margin-left: 150%;
+        margin-top: -17%;
+        width: 36px;
+        height: 21px;
+        @extend .mont12B;
+        line-height: 1.75;
+        text-align: left;
+        color: $ashPurp;
+      }
+    }
+    .saveBox{
+      margin-left: 303%;
+      margin-top: 65%;
+      width: 130px;
+      height: 48px;
+      background-color: #3bb9ba;
+      .save{
+        padding-top: 10%;
+        margin-left: -8%;
+        width: 144.9px;
+        height: 33px;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: $offWhite;
+      }
+    }
+  }
+}
+
+header{
+  margin-top: 1.2%;
+  nav{
+    margin-top: 0.2%;
+    margin-bottom: -1.5%;
+    margin-left: 25%;
+    position: absolute;
+  }
+  .mont10B{
+    margin-left: 90%;
+  }
+  .mont10R{
+    margin-left: 90%;
+    margin-top: 0.3%;
+    margin-bottom: 0.1%;
+  }
+}
+=======
+>>>>>>> master
