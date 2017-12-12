@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3 {
+.mont12B, .index .mainSection .cset h3, .index .mainSection .csetStatus h3, .index .scrolling h3, .index .scrolling h4, .index .scrolling h5, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .settings .bigSection .firstSection .editOne, .settings .bigSection .firstSection .editTwo, .settings .bigSection .secondSection .editThree, .settings .bigSection .secondSection .altPhone, .settings .bigSection .secondSection .editFour, .settings .bigSection .secondSection .editFive {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -58,7 +58,7 @@
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p {
+.mont15, .index .mainSection .cset p, .index .mainSection .csetStatus p, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .settings .bigSection .nameBox, .settings .bigSection .firstSection, .settings .bigSection .firstSection .cellPhone, .settings .bigSection .firstSection .schmidttEmail, .settings .bigSection .secondSection .schoolAddress, .settings .bigSection .secondSection .altEmail {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -257,7 +257,7 @@ table {
       color: #59aac0; }
     .index .scrolling h5 {
       color: #59aac0; }
-    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p {
+    .index .scrolling .mont15, .index .scrolling .mainSection .cset p, .index .mainSection .cset .scrolling p, .index .scrolling .mainSection .csetStatus p, .index .mainSection .csetStatus .scrolling p, .index .scrolling .schedule .studentInfo p, .schedule .studentInfo .index .scrolling p, .index .scrolling .listView p, .listView .index .scrolling p, .grades .mainSection .cset .index .scrolling p, .grades .mainSection .csetStatus .index .scrolling p, .index .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .index .scrolling p, .index .scrolling .settings .bigSection .nameBox, .settings .bigSection .index .scrolling .nameBox, .index .scrolling .settings .bigSection .firstSection, .settings .bigSection .index .scrolling .firstSection, .index .scrolling .settings .bigSection .firstSection .cellPhone, .settings .bigSection .firstSection .index .scrolling .cellPhone, .index .scrolling .settings .bigSection .firstSection .schmidttEmail, .settings .bigSection .firstSection .index .scrolling .schmidttEmail, .index .scrolling .settings .bigSection .secondSection .schoolAddress, .settings .bigSection .secondSection .index .scrolling .schoolAddress, .index .scrolling .settings .bigSection .secondSection .altEmail, .settings .bigSection .secondSection .index .scrolling .altEmail {
       color: #202020; }
     .index .scrolling .robo13 {
       color: #373737;
@@ -589,9 +589,6 @@ table {
       margin-top: 5%;
       width: 368px;
       height: 37.9px;
-      font-family: 'Montserrat';
-      font-size: 15px;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #202020; }
       .settings .bigSection .nameBox h3 {
@@ -603,10 +600,7 @@ table {
       margin-top: 5%;
       width: 241px;
       height: 66.9px;
-      font-family: 'Montserrat';
-      font-size: 15px;
       line-height: 1.4;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #202020; }
       .settings .bigSection .firstSection h3 {
@@ -619,21 +613,14 @@ table {
         margin-top: -24%;
         width: 36px;
         height: 21px;
-        font-family: 'Montserrat';
-        font-size: 12px;
-        font-weight: bold;
         line-height: 1.75;
-        letter-spacing: 0.2px;
         text-align: left;
         color: #2e0a3a; }
       .settings .bigSection .firstSection .cellPhone {
         margin-top: 30%;
         width: 241px;
         height: 45.9px;
-        font-family: 'Montserrat';
-        font-size: 15px;
         line-height: 1.4;
-        letter-spacing: 0.2px;
         text-align: left;
         color: #202020; }
       .settings .bigSection .firstSection .phoneNumber {
@@ -648,11 +635,7 @@ table {
         margin-bottom: 25%;
         width: 36px;
         height: 21px;
-        font-family: 'Montserrat';
-        font-size: 12px;
-        font-weight: bold;
         line-height: 1.75;
-        letter-spacing: 0.2px;
         text-align: left;
         color: #2e0a3a; }
       .settings .bigSection .firstSection .collegeEmail {
@@ -665,10 +648,7 @@ table {
         margin-top: 1.5%;
         width: 241px;
         height: 45.9px;
-        font-family: 'Montserrat';
-        font-size: 15px;
         line-height: 1.4;
-        letter-spacing: 0.2px;
         text-align: left;
         color: #202020; }
     .settings .bigSection .secondSection .schoolAddress {
@@ -676,10 +656,7 @@ table {
       margin-top: -102%;
       width: 231px;
       height: 95.7px;
-      font-family: 'Montserrat';
-      font-size: 15px;
       line-height: 1.4;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #202020; }
       .settings .bigSection .secondSection .schoolAddress h3 {
@@ -692,22 +669,14 @@ table {
       margin-top: -36%;
       width: 36px;
       height: 21px;
-      font-family: 'Montserrat';
-      font-size: 12px;
-      font-weight: bold;
       line-height: 1.75;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
     .settings .bigSection .secondSection .altPhone {
       margin-top: 32%;
       width: 241px;
       height: 45.9px;
-      font-family: 'Montserrat';
-      font-size: 12px;
-      font-weight: bold;
       line-height: 1.75;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
     .settings .bigSection .secondSection .altNumber {
@@ -721,21 +690,14 @@ table {
       margin-top: -15%;
       width: 36px;
       height: 21px;
-      font-family: 'Montserrat';
-      font-size: 12px;
-      font-weight: bold;
       line-height: 1.75;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
     .settings .bigSection .secondSection .altEmail {
       margin-top: 22.5%;
       width: 241px;
       height: 45.9px;
-      font-family: 'Montserrat';
-      font-size: 15px;
       line-height: 1.4;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #202020; }
     .settings .bigSection .secondSection .henriGmail {
@@ -749,11 +711,7 @@ table {
       margin-top: -17%;
       width: 36px;
       height: 21px;
-      font-family: 'Montserrat';
-      font-size: 12px;
-      font-weight: bold;
       line-height: 1.75;
-      letter-spacing: 0.2px;
       text-align: left;
       color: #2e0a3a; }
     .settings .bigSection .saveBox {
@@ -772,5 +730,19 @@ table {
         letter-spacing: 0.2px;
         text-align: center;
         color: #f7f7f7; }
+
+header {
+  margin-top: 1.3%; }
+  header nav {
+    margin-top: 0.2%;
+    margin-bottom: -1.5%;
+    margin-left: 25%;
+    position: absolute; }
+  header .mont10B, header .date, header .viewAs, header .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .enrolled .whiteBox header h4, header .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .lgWhiteBox .startFinish header h2, header .grades .gradeScroll .flex .recentGrades h2, .grades .gradeScroll .flex .recentGrades header h2 {
+    margin-left: 90%; }
+  header .mont10R, header .calendarView h5, .calendarView header h5, header .calendarView .calendarCourse, .calendarView header .calendarCourse, header .logOut {
+    margin-left: 90%;
+    margin-top: 0.3%;
+    margin-bottom: 0.1%; }
 
 /*# sourceMappingURL=style.css.map */
