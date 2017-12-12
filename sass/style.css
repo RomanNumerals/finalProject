@@ -34,7 +34,7 @@
   font-size: 12px;
   letter-spacing: 0.2px; }
 
-.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .courses .currentProgram h3, .courses .studentInfo h3, .courses .uc, .courses .courseBox h2, .courses .registration .majorsOne form, .courses .registration .cset160 form, .courses .registration .cset180 form, .courses .registration .help div, .courses .registration .help button, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
+.mont12B, .home .mainSection .cset h3, .home .mainSection .csetStatus h3, .home .scrolling h3, .home .scrolling h4, .home .scrolling h5, .courses .currentProgram h3, .courses .studentInfo h3, .courses .uc, .courses .courseBox h2, .courses .registration .majorsOne form, .courses .registration .cset160 form, .courses .registration .cset180 form, .courses .registration .help div, .courses .registration .help button, .courses .cisSelection .entry, .schedule .currentProgram h3, .schedule .studentInfo h3, .listView h4, .calendarView h3, .grades .mainSection .cset h3, .grades .mainSection .csetStatus h3, .grades .gradeScroll .enrolled h2, .grades .gradeScroll .enrolled h3, .academic .mainSection .cset h3, .academic .mainSection .csetStatus h3, .academic .flexed .flex1 .academicGlance, .academic .flexed .flex1 .miniBox h2, .academic .flexed .flex1 .miniBox .outterCircle .innerCircle p, .academic .flexed .flex2 h2, .academic .flexed .flex2 h3, .academic .flexed .flex2 h4, .academic .flexed .flex2 h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 12px;
@@ -46,19 +46,19 @@
   font-size: 13px;
   letter-spacing: 0.2px; }
 
-.mont14R, .courses .registration .core, .courses .courseSelection .genEd, .courses .cisSelection .genEd {
+.mont14R, .courses .registration .core, .courses .courseSelection .genEd, .courses .cisSelection .genEd, .courses .engSelection .genEd {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont14B, .courses .registration .course h2, .courses .registration .course h3, .courses .courseSelection .course h2, .courses .courseSelection .course h3, .courses .cisSelection .course h2, .courses .cisSelection .course h3 {
+.mont14B, .courses .registration .course h2, .courses .registration .course h3, .courses .courseSelection .course h2, .courses .courseSelection .course h3, .courses .cisSelection .course h2, .courses .cisSelection .course h3, .courses .engSelection .course h2, .courses .engSelection .course h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px; }
 
-.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .courses .studentInfo p, .courses .courseBox h3, .courses .registration .majorsOne h2, .courses .registration .cset160 h2, .courses .registration .cset180 h2, .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .ss p, .courses .cisSelection .cis h2, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
+.mont15, .home .mainSection .cset p, .home .mainSection .csetStatus p, .courses .studentInfo p, .courses .courseBox h3, .courses .registration .majorsOne h2, .courses .registration .cset160 h2, .courses .registration .cset180 h2, .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .ss p, .courses .cisSelection .cis, .courses .cisSelection .courseSelection .genEdNames .english, .courses .courseSelection .genEdNames .cisSelection .english, .courses .cisSelection .courseSelection .genEdNames .history, .courses .courseSelection .genEdNames .cisSelection .history, .courses .cisSelection .courseSelection .genEdNames .math, .courses .courseSelection .genEdNames .cisSelection .math, .courses .cisSelection .courseSelection .genEdNames .pe, .courses .courseSelection .genEdNames .cisSelection .pe, .courses .cisSelection .courseSelection .genEdNames .science, .courses .courseSelection .genEdNames .cisSelection .science, .courses .cisSelection .courseSelection .genEdNames .ss, .courses .courseSelection .genEdNames .cisSelection .ss, .courses .cisSelection .entry h2, .courses .engSelection .eng, .schedule .studentInfo p, .listView p, .grades .mainSection .cset p, .grades .mainSection .csetStatus p, .grades .gradeScroll .enrolled p, .academic .mainSection .cset p, .academic .mainSection .csetStatus p, .academic .flexed .flex1 .miniBox p, .academic .flexed .flex2 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: regular;
   font-size: 15px;
@@ -527,7 +527,7 @@ table {
       color: #59aac0; }
     .home .scrolling h5 {
       color: #59aac0; }
-    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .courses .studentInfo p, .courses .studentInfo .home .scrolling p, .home .scrolling .courses .courseBox h3, .courses .courseBox .home .scrolling h3, .home .scrolling .courses .registration .majorsOne h2, .courses .registration .majorsOne .home .scrolling h2, .home .scrolling .courses .registration .cset160 h2, .courses .registration .cset160 .home .scrolling h2, .home .scrolling .courses .registration .cset180 h2, .courses .registration .cset180 .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .cis .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .english .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .history .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .math .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .pe .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .science .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .ss .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .cis .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .english .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .history .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .math .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .pe .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .science .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .ss p, .courses .courseSelection .genEdNames .ss .home .scrolling p, .home .scrolling .courses .cisSelection .cis h2, .courses .cisSelection .cis .home .scrolling h2, .home .scrolling .schedule .studentInfo p, .schedule .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
+    .home .scrolling .mont15, .home .scrolling .mainSection .cset p, .home .mainSection .cset .scrolling p, .home .scrolling .mainSection .csetStatus p, .home .mainSection .csetStatus .scrolling p, .home .scrolling .courses .studentInfo p, .courses .studentInfo .home .scrolling p, .home .scrolling .courses .courseBox h3, .courses .courseBox .home .scrolling h3, .home .scrolling .courses .registration .majorsOne h2, .courses .registration .majorsOne .home .scrolling h2, .home .scrolling .courses .registration .cset160 h2, .courses .registration .cset160 .home .scrolling h2, .home .scrolling .courses .registration .cset180 h2, .courses .registration .cset180 .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis h2, .courses .courseSelection .genEdNames .cis .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .english .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .history .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .math .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .pe .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .science .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .ss .home .scrolling h2, .home .scrolling .courses .courseSelection .genEdNames .cis p, .courses .courseSelection .genEdNames .cis .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .english p, .courses .courseSelection .genEdNames .english .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .history p, .courses .courseSelection .genEdNames .history .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .math p, .courses .courseSelection .genEdNames .math .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .pe p, .courses .courseSelection .genEdNames .pe .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .science p, .courses .courseSelection .genEdNames .science .home .scrolling p, .home .scrolling .courses .courseSelection .genEdNames .ss p, .courses .courseSelection .genEdNames .ss .home .scrolling p, .home .scrolling .courses .cisSelection .cis, .courses .cisSelection .home .scrolling .cis, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .english, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .english, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .english, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .english, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .history, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .history, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .history, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .history, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .math, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .math, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .math, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .math, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .pe, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .pe, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .pe, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .pe, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .science, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .science, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .science, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .science, .home .scrolling .courses .cisSelection .courseSelection .genEdNames .ss, .courses .cisSelection .courseSelection .genEdNames .home .scrolling .ss, .home .scrolling .courses .courseSelection .genEdNames .cisSelection .ss, .courses .courseSelection .genEdNames .cisSelection .home .scrolling .ss, .home .scrolling .courses .cisSelection .entry h2, .courses .cisSelection .entry .home .scrolling h2, .home .scrolling .courses .engSelection .eng, .courses .engSelection .home .scrolling .eng, .home .scrolling .schedule .studentInfo p, .schedule .studentInfo .home .scrolling p, .home .scrolling .listView p, .listView .home .scrolling p, .grades .mainSection .cset .home .scrolling p, .grades .mainSection .csetStatus .home .scrolling p, .home .scrolling .grades .gradeScroll .enrolled p, .grades .gradeScroll .enrolled .home .scrolling p, .academic .mainSection .cset .home .scrolling p, .academic .mainSection .csetStatus .home .scrolling p, .home .scrolling .academic .flexed .flex1 .miniBox p, .academic .flexed .flex1 .miniBox .home .scrolling p, .home .scrolling .academic .flexed .flex2 p, .academic .flexed .flex2 .home .scrolling p {
       color: #202020; }
     .home .scrolling .robo13 {
       color: #373737;
@@ -733,45 +733,103 @@ table {
         border-bottom: none; }
   .courses .cisSelection {
     background-color: #ffffff;
-    height: 58%;
+    height: 55%;
+    width: 73%;
+    margin: 3% 0 0 25%;
+    display: none;
+    flex-wrap: wrap; }
+    .courses .cisSelection .course {
+      width: 100%;
+      height: 5%;
+      display: inline-flex;
+      flex-wrap: wrap; }
+      .courses .cisSelection .course h2 {
+        color: #33c7ba;
+        width: 70%;
+        padding: 20px 120px 0 20px; }
+      .courses .cisSelection .course h3 {
+        color: #33c7ba;
+        width: 10%;
+        padding-top: 20px; }
+      .courses .cisSelection .course .progressBar {
+        width: 45%;
+        height: 5px;
+        background-color: #50e3c2;
+        margin: 15px 0 0 20px; }
+      .courses .cisSelection .course .progressBar2 {
+        width: 45%;
+        height: 5px;
+        background-color: #359ca1;
+        margin-top: 15px; }
+    .courses .cisSelection .genEd {
+      width: 95%;
+      color: #202020;
+      margin: 6px 0 0 30px; }
+    .courses .cisSelection .cis, .courses .cisSelection .courseSelection .genEdNames .english, .courses .courseSelection .genEdNames .cisSelection .english, .courses .cisSelection .courseSelection .genEdNames .history, .courses .courseSelection .genEdNames .cisSelection .history, .courses .cisSelection .courseSelection .genEdNames .math, .courses .courseSelection .genEdNames .cisSelection .math, .courses .cisSelection .courseSelection .genEdNames .pe, .courses .courseSelection .genEdNames .cisSelection .pe, .courses .cisSelection .courseSelection .genEdNames .science, .courses .courseSelection .genEdNames .cisSelection .science, .courses .cisSelection .courseSelection .genEdNames .ss, .courses .courseSelection .genEdNames .cisSelection .ss {
+      width: 95%;
+      margin: -20px 0 0 50px;
+      color: #44ccc0; }
+    .courses .cisSelection .thinLine {
+      width: 575px;
+      height: 2px;
+      margin: -35px 0 0 45px;
+      background-color: #359ca1; }
+    .courses .cisSelection .entry {
+      margin: -50px 0 0 90px;
+      width: 90%;
+      color: #48a2ba; }
+      .courses .cisSelection .entry h2 {
+        color: #202020;
+        padding: 10px 0 10px 0; }
+    .courses .cisSelection button {
+      height: 42px;
+      width: 114px;
+      background-color: #3bb9ba;
+      color: #ffffff;
+      margin-left: 75%; }
+  .courses .engSelection {
+    background-color: #ffffff;
+    height: 55%;
     width: 73%;
     margin: 3% 0 0 25%;
     display: flex;
     flex-wrap: wrap; }
-    .courses .cisSelection .course {
+    .courses .engSelection .course {
       width: 100%;
-      display: inherit;
-      padding: 3% 0 0 4%; }
-      .courses .cisSelection .course h2 {
+      height: 5%;
+      display: flex;
+      flex-wrap: wrap; }
+      .courses .engSelection .course h2 {
         color: #33c7ba;
-        padding-right: 55%; }
-      .courses .cisSelection .course h3 {
-        color: #33c7ba; }
-    .courses .cisSelection .bars {
-      width: 95%;
-      display: inherit;
-      margin-top: -16%; }
-      .courses .cisSelection .bars .progressBar {
+        width: 70%;
+        padding: 20px 120px 0 20px; }
+      .courses .engSelection .course h3 {
+        color: #33c7ba;
+        width: 10%;
+        padding-top: 20px; }
+      .courses .engSelection .course .progressBar {
+        width: 45%;
+        height: 5px;
         background-color: #50e3c2;
-        width: 50%;
-        height: 3%;
-        margin-left: 4%; }
-      .courses .cisSelection .bars .progressBar2 {
+        margin: 15px 0 0 20px; }
+      .courses .engSelection .course .progressBar2 {
+        width: 45%;
+        height: 5px;
         background-color: #359ca1;
-        width: 50%;
-        height: 3%; }
-    .courses .cisSelection .genEd {
-      margin: -28% 0 0 4%;
-      color: #202020; }
-    .courses .cisSelection .cis, .courses .cisSelection .courseSelection .genEdNames .english, .courses .courseSelection .genEdNames .cisSelection .english, .courses .cisSelection .courseSelection .genEdNames .history, .courses .courseSelection .genEdNames .cisSelection .history, .courses .cisSelection .courseSelection .genEdNames .math, .courses .courseSelection .genEdNames .cisSelection .math, .courses .cisSelection .courseSelection .genEdNames .pe, .courses .courseSelection .genEdNames .cisSelection .pe, .courses .cisSelection .courseSelection .genEdNames .science, .courses .courseSelection .genEdNames .cisSelection .science, .courses .cisSelection .courseSelection .genEdNames .ss, .courses .courseSelection .genEdNames .cisSelection .ss {
-      margin: -20% 0 0 -15%; }
-      .courses .cisSelection .cis h2, .courses .cisSelection .courseSelection .genEdNames .english h2, .courses .courseSelection .genEdNames .cisSelection .english h2, .courses .cisSelection .courseSelection .genEdNames .history h2, .courses .courseSelection .genEdNames .cisSelection .history h2, .courses .cisSelection .courseSelection .genEdNames .math h2, .courses .courseSelection .genEdNames .cisSelection .math h2, .courses .cisSelection .courseSelection .genEdNames .pe h2, .courses .courseSelection .genEdNames .cisSelection .pe h2, .courses .cisSelection .courseSelection .genEdNames .science h2, .courses .courseSelection .genEdNames .cisSelection .science h2, .courses .cisSelection .courseSelection .genEdNames .ss h2, .courses .courseSelection .genEdNames .cisSelection .ss h2 {
-        color: #44ccc0; }
-    .courses .cisSelection .thinLine {
-      background-color: #359ca1;
-      height: .50%;
-      width: 80%;
-      margin: -15% 0 0 -33%; }
+        margin-top: 15px; }
+    .courses .engSelection .genEd {
+      width: 95%;
+      color: #202020;
+      margin: -30px 0 0 30px; }
+    .courses .engSelection .eng {
+      width: 95%;
+      margin: -90px 0 0 50px;
+      color: #44ccc0; }
+    .courses .engSelection .thinLine {
+      width: 575px;
+      height: 2px;
+      margin: -165px 0 0 45px;
+      background-color: #359ca1; }
 
 .mainContain {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba);

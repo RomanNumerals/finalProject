@@ -262,58 +262,132 @@
     }
     .cisSelection {
         background-color: #ffffff;
-        height: 58%;
+        height: 55%;
         width: 73%;
         margin: 3% 0 0 25%;
-        display: flex;
+        display: none; //must be displayed as flex when going to show
         flex-wrap: wrap;
         .course {
             width: 100%;
-            display: inherit;
-            padding: 3% 0 0 4%;
+            height: 5%;
+            display: inline-flex;
+            flex-wrap: wrap;
             h2 {
                 @extend .mont14B;
                 color: $tutor;
-                padding-right: 55%;
+                width: 70%;
+                padding: 20px 120px 0 20px;
             }
             h3 {
                 @extend .mont14B;
                 color: $tutor;
+                width: 10%;
+                padding-top: 20px;
             }
-        }
-        .bars {
-            width: 95%;
-            display: inherit;
-            margin-top: -16%;
             .progressBar {
+                width: 45%;
+                height: 5px;
                 background-color: #50e3c2;
-                width: 50%;
-                height: 3%;
-                margin-left: 4%;
+                margin: 15px 0 0 20px;
             }
             .progressBar2 {
+                width: 45%;
+                height: 5px;
                 background-color: #359ca1;
-                width: 50%;
-                height: 3%;
+                margin-top: 15px;
             }
         }
         .genEd {
-            margin: -28% 0 0 4%;
+            width: 95%;
             @extend .mont14R;
             color: $slateGrey;
+            margin: 6px 0 0 30px;
         }
         .cis {
-            margin: -20% 0 0 -15%;
-            h2 {
-                @extend .mont15;
-                color: #44ccc0;
-            }
+            width: 95%;
+            margin: -20px 0 0 50px;
+            color: #44ccc0;
+            @extend .mont15;
         }
         .thinLine {
+            width: 575px;
+            height: 2px;
+            margin: -35px 0 0 45px;
             background-color: #359ca1;
-            height: .50%;
-            width: 80%;
-            margin: -15% 0 0 -33%;
+        }
+        .entry {
+            margin: -50px 0 0 90px;
+            width: 90%;
+            color: $seaBlue;
+            @extend .mont12B;
+            h2 {
+                @extend .mont15;
+                color: $slateGrey;
+                padding: 10px 0 10px 0;
+            }
+        }
+        button {
+            height: 42px;
+            width: 114px;
+            background-color: #3bb9ba;
+            color: #ffffff;
+            margin-left: 75%;
+        }
+    }
+    .engSelection {
+        background-color: #ffffff;
+        height: 55%;
+        width: 73%;
+        margin: 3% 0 0 25%;
+        display: flex; //must be displayed as flex when going to show
+        flex-wrap: wrap;
+        .course {
+            width: 100%;
+            height: 5%;
+            display: flex;
+            flex-wrap: wrap;
+            h2 {
+                @extend .mont14B;
+                color: $tutor;
+                width: 70%;
+                padding: 20px 120px 0 20px;
+            }
+            h3 {
+                @extend .mont14B;
+                color: $tutor;
+                width: 10%;
+                padding-top: 20px;
+            }
+            .progressBar {
+                width: 45%;
+                height: 5px;
+                background-color: #50e3c2;
+                margin: 15px 0 0 20px;
+            }
+            .progressBar2 {
+                width: 45%;
+                height: 5px;
+                background-color: #359ca1;
+                margin-top: 15px;
+            }
+        }
+        .genEd {
+            width: 95%;
+            @extend .mont14R;
+            color: $slateGrey;
+            margin: -30px 0 0 30px;
+        }
+        .eng {
+            width: 95%;
+            margin: -90px 0 0 50px;
+            color: #44ccc0;
+            @extend .mont15;
+        }
+        .thinLine {
+            width: 575px;
+            height: 2px;
+            margin: -165px 0 0 45px;
+            background-color: #359ca1;
         }
     }
 }
