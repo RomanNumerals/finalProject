@@ -1356,19 +1356,18 @@ aside li:hover {
         letter-spacing: 0.2px;
         text-align: center;
         color: #f7f7f7; }
-
-header {
-  margin-top: 1.2%; }
-  header nav {
-    margin-top: 0.2%;
-    margin-bottom: -1.5%;
-    margin-left: 25%;
-    position: absolute; }
-  header .mont10B, header .courses .viewAs h3, .courses .viewAs header h3, header .courses .viewAs p, .courses .viewAs header p, header .date, header .viewAs, header .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .enrolled .whiteBox header h4, header .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .lgWhiteBox .startFinish header h2, header .grades .gradeScroll .flex .recentGrades h2, .grades .gradeScroll .flex .recentGrades header h2 {
-    margin-left: 90%; }
-  header .mont10R, header .activePage, header .notActive, header .calendarView h5, .calendarView header h5, header .calendarView .calendarCourse, .calendarView header .calendarCourse, header .logOut {
-    margin-left: 90%;
-    margin-top: 0.3%;
-    margin-bottom: 0.1%; }
+  .settings header {
+    margin-top: 1.2%; }
+    .settings header nav {
+      margin-top: 0.2%;
+      margin-bottom: -1.5%;
+      margin-left: 25%;
+      position: absolute; }
+    .settings header .mont10B, .settings header .courses .viewAs h3, .courses .viewAs .settings header h3, .settings header .courses .viewAs p, .courses .viewAs .settings header p, .settings header .date, .settings header .viewAs, .settings header .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .enrolled .whiteBox .settings header h4, .settings header .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .lgWhiteBox .startFinish .settings header h2, .settings header .grades .gradeScroll .flex .recentGrades h2, .grades .gradeScroll .flex .recentGrades .settings header h2 {
+      margin-left: 90%; }
+    .settings header .mont10R, .settings header .activePage, .settings header .notActive, .settings header .calendarView h5, .calendarView .settings header h5, .settings header .calendarView .calendarCourse, .calendarView .settings header .calendarCourse, .settings header .logOut {
+      margin-left: 90%;
+      margin-top: 0.3%;
+      margin-bottom: 0.1%; }
 
 /*# sourceMappingURL=style.css.map */
