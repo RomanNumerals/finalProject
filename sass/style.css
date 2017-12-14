@@ -573,10 +573,12 @@ table {
     padding: 2%; }
   .courses .currentProgram {
     line-height: 1.5;
-    margin-bottom: 5%; }
+    top: 25px;
+    left: 330px; }
     .courses .currentProgram h3 {
       color: #48a2ba; }
   .courses .studentInfo {
+    margin-top: 20px;
     display: inline-flex; }
     .courses .studentInfo div {
       padding-right: 60px; }
@@ -856,6 +858,247 @@ table {
       background-color: #3bb9ba;
       color: #ffffff;
       margin-left: 80%; }
+  .courses .transparentBackground {
+    width: 110%;
+    height: 1500px;
+    background-color: black;
+    margin-top: -1000px;
+    margin-left: -30px;
+    position: absolute;
+    opacity: .5; }
+  .courses .coursePopUp {
+    width: 35%;
+    height: 253px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -350px;
+    margin-left: 500px;
+    position: absolute; }
+  .courses .courseHelpText {
+    width: 493.9px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #33c7ba;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute; }
+  .courses .currentProgram {
+    width: 493.9px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #33c7ba;
+    margin-top: 40px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .csetTitle {
+    width: 376px;
+    height: 42px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: 0.2px;
+    text-align: left;
+    font-weight: bold;
+    color: #202020;
+    margin-top: 60px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .newProgram {
+    width: 105px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #48a2ba;
+    margin-top: 100px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .dropDown {
+    width: 60%;
+    height: 30px;
+    position: absolute;
+    background-color: #d8d8d8;
+    border: solid 1px #979797;
+    margin-top: 130px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .submitCourse {
+    width: 30%;
+    height: 50px;
+    background-color: #3bb9ba;
+    top: 175px;
+    left: 25px;
+    position: absolute; }
+  .courses .hide {
+    display: none; }
+  .courses .courseHelpBox {
+    width: 481px;
+    height: 375px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -400px;
+    margin-left: 400px;
+    position: absolute; }
+  .courses .errorOtherIssue {
+    width: 336px;
+    height: 101px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    margin-top: 40px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .submitHelpBox {
+    width: 30%;
+    height: 50px;
+    background-color: #3bb9ba;
+    top: 300px;
+    left: 25px;
+    position: absolute; }
+  .courses .courseHelpAnswer {
+    width: 80%;
+    height: 166px;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .changeMajors {
+    width: 481px;
+    height: 244px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -400px;
+    margin-left: 400px;
+    position: absolute; }
+  .courses .courseSelect {
+    width: 20px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    margin-top: 75px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .changeMajorText {
+    margin-top: 75px;
+    margin-left: 55px;
+    position: absolute; }
+  .courses .courseSelectSecond {
+    width: 20px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    margin-top: 115px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .changeMajorTextSecond {
+    margin-top: 115px;
+    margin-left: 55px;
+    position: absolute; }
+  .courses .courseSelectThird {
+    width: 20px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.93;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    margin-top: 155px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .changeMajorTextThird {
+    margin-top: 155px;
+    margin-left: 55px;
+    position: absolute; }
+  .courses .nextButton {
+    width: 114px;
+    height: 42px;
+    background-color: #3bb9ba;
+    margin-top: 185px;
+    margin-left: 25px;
+    position: absolute; }
+  .courses .changeMajorBoxError {
+    width: 481px;
+    height: 244px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -400px;
+    margin-left: 400px;
+    position: absolute; }
+  .courses .errorMajor {
+    width: 336px;
+    height: 101px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1.62;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #202020;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute; }
+  .courses .okayButton {
+    width: 114px;
+    height: 42px;
+    background-color: #3bb9ba;
+    margin-left: -120px;
+    margin-top: 75px;
+    position: absolute; }
+  .courses .changeMajorBoxErrorOther {
+    width: 481px;
+    height: 223px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -400px;
+    margin-left: 400px;
+    position: absolute; }
+  .courses .thanksButton {
+    width: 114px;
+    height: 42px;
+    background-color: #3bb9ba;
+    margin-left: -175px;
+    margin-top: 50px;
+    position: absolute; }
+  .courses .logoutMenu {
+    width: 397px;
+    height: 176px;
+    background-color: #f7f7f7;
+    border: solid 1px #979797;
+    margin-top: -400px;
+    margin-left: 400px;
+    position: absolute; }
+  .courses .logOutButton {
+    width: 114px;
+    height: 42px;
+    background-color: #3bb9ba;
+    margin-top: 100px;
+    margin-left: 20px;
+    position: absolute; }
+  .courses .neverMind {
+    margin-top: 120px;
+    margin-left: 150px;
+    position: absolute; }
 
 .mainContain {
   background-image: linear-gradient(126deg, #2fcfba, #47a1ba);

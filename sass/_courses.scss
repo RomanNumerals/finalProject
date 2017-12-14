@@ -1,433 +1,705 @@
-.courses {
+  .courses {
     background-color: $offWhite;
     height: 94%;
     width: 95%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     position: fixed;
     .blueDivider {
-        margin: 1% 0 2% 24%;
+      margin: 1% 0 2% 24%;
     }
     .mainSection {
-        padding: 2%;
+      padding: 2%;
     }
     .programStanding {}
     .currentProgram {
-        line-height: 1.5;
-        margin-bottom: 5%;
-        h3 {
-            @extend .mont12B;
-            color: $seaBlue;
-        }
-    }
-    .studentInfo {
-        display: inline-flex;
-        div {
-            padding-right: 60px;
-        }
-        h3 {
-            @extend .mont12B;
-            color: $ashPurp;
-        }
-        p {
-            @extend .mont15;
-        }
-    }
-    .uc {
+      line-height: 1.5;
+      top: 25px;
+      left: 330px;
+      h3 {
         @extend .mont12B;
         color: $seaBlue;
-        margin-left: 25%;
+      }
+    }
+    .studentInfo {
+      margin-top: 20px;
+      display: inline-flex;
+      div {
+        padding-right: 60px;
+      }
+      h3 {
+        @extend .mont12B;
+        color: $ashPurp;
+      }
+      p {
+        @extend .mont15;
+      }
+    }
+    .uc {
+      @extend .mont12B;
+      color: $seaBlue;
+      margin-left: 25%;
     }
     .viewAs {
-        margin: -1% 0 0 80%;
-        h3 {
-            @extend .mont10B;
-            color: #4da4bc;
-        }
-        p {
-            @extend .mont10B;
-            color: #5bd8c8;
-        }
+      margin: -1% 0 0 80%;
+      h3 {
+        @extend .mont10B;
+        color: #4da4bc;
+      }
+      p {
+        @extend .mont10B;
+        color: #5bd8c8;
+      }
     }
     .courseBox {
-        background-color: #ffffff;
-        height: 35%;
-        width: 70%;
-        margin: 8% 0 0 2%;
-        display: inline-block; //should be inline-block when going to show
-        line-height: 1.5;
-        h2 {
-            text-align: center;
-            padding-top: 10%;
-            @extend .mont12B;
-            color: $seaBlue;
-        }
-        h3 {
-            text-align: center;
-            @extend .mont15;
-            color: $slateGrey;
-        }
-        button {
-            margin: 2% 0 0 40%;
-            height: 20%;
-            width: 20%;
-            background-color: #37beba;
-            color: $offWhite;
-        }
+      background-color: #ffffff;
+      height: 35%;
+      width: 70%;
+      margin: 8% 0 0 2%;
+      display: inline-block; //should be inline-block when going to show
+      line-height: 1.5;
+      h2 {
+        text-align: center;
+        padding-top: 10%;
+        @extend .mont12B;
+        color: $seaBlue;
+      }
+      h3 {
+        text-align: center;
+        @extend .mont15;
+        color: $slateGrey;
+      }
+      button {
+        margin: 2% 0 0 40%;
+        height: 20%;
+        width: 20%;
+        background-color: #37beba;
+        color: $offWhite;
+      }
     }
     .registration {
-        background-color: #ffffff;
-        height: 50%;
-        width: 72%;
-        margin: 3% 0 0 25%;
-        display: none; // when showing should display flex
-        flex-wrap: wrap;
-        .course {
-            width: 100%;
-            display: inherit;
-            padding: 3% 0 0 4%;
-            h2 {
-                @extend .mont14B;
-                color: $tutor;
-                padding-right: 55%;
-            }
-            h3 {
-                @extend .mont14B;
-                color: $tutor;
-            }
+      background-color: #ffffff;
+      height: 50%;
+      width: 72%;
+      margin: 3% 0 0 25%;
+      display: none; // when showing should display flex
+      flex-wrap: wrap;
+      .course {
+        width: 100%;
+        display: inherit;
+        padding: 3% 0 0 4%;
+        h2 {
+          @extend .mont14B;
+          color: $tutor;
+          padding-right: 55%;
         }
-        .bars {
-            width: 95%;
-            display: inherit;
-            margin-top: -7%;
-            .progressBar {
-                background-color: #50e3c2;
-                width: 50%;
-                height: 6%;
-                margin-left: 4%;
-            }
-            .progressBar2 {
-                background-color: #359ca1;
-                width: 50%;
-                height: 6%;
-            }
+        h3 {
+          @extend .mont14B;
+          color: $tutor;
         }
-        .core {
-            width: 90%;
-            margin: -10% 0 0 4%;
-            color: $slateGrey;
-            @extend .mont14R;
+      }
+      .bars {
+        width: 95%;
+        display: inherit;
+        margin-top: -7%;
+        .progressBar {
+          background-color: #50e3c2;
+          width: 50%;
+          height: 6%;
+          margin-left: 4%;
         }
-        .majorsOne {
-            width: 90%;
-            display: flex;
-            justify-content: space-around;
-            margin-top: -10%;
-            form {
-                margin-bottom: 4%;
-                color: $seaBlue;
-                @extend .mont12B;
-            }
-            h2 {
-                @extend .mont15;
-                color: $slateGrey;
-            }
+        .progressBar2 {
+          background-color: #359ca1;
+          width: 50%;
+          height: 6%;
         }
-        .cset160 {
-            width: 50%;
-            form {
-                margin: 0 0 4% 22%;
-                color: $seaBlue;
-                @extend .mont12B;
-            }
-            h2 {
-                margin-left: 22%;
-                @extend .mont15;
-                color: $slateGrey;
-            }
+      }
+      .core {
+        width: 90%;
+        margin: -10% 0 0 4%;
+        color: $slateGrey;
+        @extend .mont14R;
+      }
+      .majorsOne {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -10%;
+        form {
+          margin-bottom: 4%;
+          color: $seaBlue;
+          @extend .mont12B;
         }
-        .cset180 {
-            width: 50%;
-            form {
-                margin-bottom: 4%;
-                color: $seaBlue;
-                @extend .mont12B;
-            }
-            h2 {
-                @extend .mont15;
-                color: $slateGrey;
-            }
+        h2 {
+          @extend .mont15;
+          color: $slateGrey;
         }
-        .help {
-            width: 100%;
-            display: flex;
-            div {
-                width: 80%;
-                text-align: right;
-                color: #50e3c2;
-                @extend .mont12B;
-                h2 {
-                    margin: 4%;
-                }
-            }
-            button {
-                height: 65%;
-                width: 15%;
-                color: #ffffff;
-                background-color: #3bb9ba;
-                @extend .mont12B;
-            }
+      }
+      .cset160 {
+        width: 50%;
+        form {
+          margin: 0 0 4% 22%;
+          color: $seaBlue;
+          @extend .mont12B;
         }
+        h2 {
+          margin-left: 22%;
+          @extend .mont15;
+          color: $slateGrey;
+        }
+      }
+      .cset180 {
+        width: 50%;
+        form {
+          margin-bottom: 4%;
+          color: $seaBlue;
+          @extend .mont12B;
+        }
+        h2 {
+          @extend .mont15;
+          color: $slateGrey;
+        }
+      }
+      .help {
+        width: 100%;
+        display: flex;
+        div {
+          width: 80%;
+          text-align: right;
+          color: #50e3c2;
+          @extend .mont12B;
+          h2 {
+            margin: 4%;
+          }
+        }
+        button {
+          height: 65%;
+          width: 15%;
+          color: #ffffff;
+          background-color: #3bb9ba;
+          @extend .mont12B;
+        }
+      }
     }
     .courseSelection {
-        background-color: #ffffff;
-        height: 55%;
-        width: 72%;
-        margin: 3% 0 0 25%;
-        display: none; // when showing should display flex
-        flex-wrap: wrap;
-        .course {
-            width: 100%;
-            display: inherit;
-            padding: 3% 0 0 4%;
-            h2 {
-                @extend .mont14B;
-                color: $tutor;
-                padding-right: 55%;
-            }
-            h3 {
-                @extend .mont14B;
-                color: $tutor;
-            }
+      background-color: #ffffff;
+      height: 55%;
+      width: 72%;
+      margin: 3% 0 0 25%;
+      display: none; // when showing should display flex
+      flex-wrap: wrap;
+      .course {
+        width: 100%;
+        display: inherit;
+        padding: 3% 0 0 4%;
+        h2 {
+          @extend .mont14B;
+          color: $tutor;
+          padding-right: 55%;
         }
-        .bars {
-            width: 95%;
-            display: inherit;
-            margin-top: -8%;
-            .progressBar {
-                background-color: #50e3c2;
-                width: 50%;
-                height: 3%;
-                margin-left: 4%;
-            }
-            .progressBar2 {
-                background-color: #359ca1;
-                width: 50%;
-                height: 3%;
-            }
+        h3 {
+          @extend .mont14B;
+          color: $tutor;
         }
-        .genEd {
-            margin: -12% 0 0 4%;
-            @extend .mont14R;
-            color: $slateGrey;
+      }
+      .bars {
+        width: 95%;
+        display: inherit;
+        margin-top: -8%;
+        .progressBar {
+          background-color: #50e3c2;
+          width: 50%;
+          height: 3%;
+          margin-left: 4%;
         }
-        .genEdNames {
-            width: 80%;
-            height: 50%;
-            margin: -16% 0 0 8%;
-            .cis {
-                display: flex;
-                justify-content: space-between;
-                border-bottom: 2px solid #359ca1;
-                h2 {
-                    @extend .mont15;
-                    color: #44ccc0;
-                    margin: 2% 0 2% 0;
-                }
-                p {
-                    @extend .mont15;
-                    color: #44ccc0;
-                    margin-top: 2%;
-                }
-            }
-            .english {
-                @extend .cis;
-            }
-            .history {
-                @extend .cis;
-            }
-            .math {
-                @extend .cis;
-            }
-            .pe {
-                @extend .cis;
-            }
-            .science {
-                @extend .cis;
-            }
-            .ss {
-                @extend .cis;
-                border-bottom: none;
-            }
+        .progressBar2 {
+          background-color: #359ca1;
+          width: 50%;
+          height: 3%;
         }
+      }
+      .genEd {
+        margin: -12% 0 0 4%;
+        @extend .mont14R;
+        color: $slateGrey;
+      }
+      .genEdNames {
+        width: 80%;
+        height: 50%;
+        margin: -16% 0 0 8%;
+        .cis {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 2px solid #359ca1;
+          h2 {
+            @extend .mont15;
+            color: #44ccc0;
+            margin: 2% 0 2% 0;
+          }
+          p {
+            @extend .mont15;
+            color: #44ccc0;
+            margin-top: 2%;
+          }
+        }
+        .english {
+          @extend .cis;
+        }
+        .history {
+          @extend .cis;
+        }
+        .math {
+          @extend .cis;
+        }
+        .pe {
+          @extend .cis;
+        }
+        .science {
+          @extend .cis;
+        }
+        .ss {
+          @extend .cis;
+          border-bottom: none;
+        }
+      }
     }
     .cisSelection {
-        background-color: #ffffff;
-        height: 55%;
-        width: 73%;
-        margin: 3% 0 0 25%;
-        display: none; //must be displayed as flex when going to show
+      background-color: #ffffff;
+      height: 55%;
+      width: 73%;
+      margin: 3% 0 0 25%;
+      display: none; //must be displayed as flex when going to show
+      flex-wrap: wrap;
+      .course {
+        width: 100%;
+        height: 5%;
+        display: inline-flex;
         flex-wrap: wrap;
-        .course {
-            width: 100%;
-            height: 5%;
-            display: inline-flex;
-            flex-wrap: wrap;
-            h2 {
-                @extend .mont14B;
-                color: $tutor;
-                width: 70%;
-                padding: 20px 120px 0 20px;
-            }
-            h3 {
-                @extend .mont14B;
-                color: $tutor;
-                width: 10%;
-                padding-top: 20px;
-            }
-            .progressBar {
-                width: 45%;
-                height: 5px;
-                background-color: #50e3c2;
-                margin: 15px 0 0 20px;
-            }
-            .progressBar2 {
-                width: 45%;
-                height: 5px;
-                background-color: #359ca1;
-                margin-top: 15px;
-            }
+        h2 {
+          @extend .mont14B;
+          color: $tutor;
+          width: 70%;
+          padding: 20px 120px 0 20px;
         }
-        .genEd {
-            width: 95%;
-            @extend .mont14R;
-            color: $slateGrey;
-            margin: 6px 0 0 30px;
+        h3 {
+          @extend .mont14B;
+          color: $tutor;
+          width: 10%;
+          padding-top: 20px;
         }
-        .cis {
-            width: 95%;
-            margin: -20px 0 0 50px;
-            color: #44ccc0;
-            @extend .mont15;
+        .progressBar {
+          width: 45%;
+          height: 5px;
+          background-color: #50e3c2;
+          margin: 15px 0 0 20px;
         }
-        .thinLine {
-            width: 575px;
-            height: 2px;
-            margin: -35px 0 0 45px;
-            background-color: #359ca1;
+        .progressBar2 {
+          width: 45%;
+          height: 5px;
+          background-color: #359ca1;
+          margin-top: 15px;
         }
-        .entry {
-            margin: -50px 0 0 90px;
-            width: 90%;
-            color: $seaBlue;
-            @extend .mont12B;
-            h2 {
-                @extend .mont15;
-                color: $slateGrey;
-                padding: 10px 0 10px 0;
-            }
+      }
+      .genEd {
+        width: 95%;
+        @extend .mont14R;
+        color: $slateGrey;
+        margin: 6px 0 0 30px;
+      }
+      .cis {
+        width: 95%;
+        margin: -20px 0 0 50px;
+        color: #44ccc0;
+        @extend .mont15;
+      }
+      .thinLine {
+        width: 575px;
+        height: 2px;
+        margin: -35px 0 0 45px;
+        background-color: #359ca1;
+      }
+      .entry {
+        margin: -50px 0 0 90px;
+        width: 90%;
+        color: $seaBlue;
+        @extend .mont12B;
+        h2 {
+          @extend .mont15;
+          color: $slateGrey;
+          padding: 10px 0 10px 0;
         }
-        button {
-            height: 42px;
-            width: 114px;
-            background-color: #3bb9ba;
-            color: #ffffff;
-            margin-left: 75%;
-        }
+      }
+      button {
+        height: 42px;
+        width: 114px;
+        background-color: #3bb9ba;
+        color: #ffffff;
+        margin-left: 75%;
+      }
     }
     .engSelection {
-        background-color: #ffffff;
-        height: 55%;
-        width: 73%;
-        margin: 3% 0 0 25%;
-        display: none; //must be displayed as flex when going to show
+      background-color: #ffffff;
+      height: 55%;
+      width: 73%;
+      margin: 3% 0 0 25%;
+      display: none; //must be displayed as flex when going to show
+      flex-wrap: wrap;
+      .course {
+        width: 100%;
+        height: 5%;
+        display: flex;
         flex-wrap: wrap;
-        .course {
-            width: 100%;
-            height: 5%;
-            display: flex;
-            flex-wrap: wrap;
-            h2 {
-                @extend .mont14B;
-                color: $tutor;
-                width: 70%;
-                padding: 20px 120px 0 20px;
-            }
-            h3 {
-                @extend .mont14B;
-                color: $tutor;
-                width: 10%;
-                padding-top: 20px;
-            }
-            .progressBar {
-                width: 45%;
-                height: 5px;
-                background-color: #50e3c2;
-                margin: 15px 0 0 20px;
-            }
-            .progressBar2 {
-                width: 45%;
-                height: 5px;
-                background-color: #359ca1;
-                margin-top: 15px;
-            }
+        h2 {
+          @extend .mont14B;
+          color: $tutor;
+          width: 70%;
+          padding: 20px 120px 0 20px;
         }
-        .genEd {
-            width: 95%;
-            @extend .mont14R;
-            color: $slateGrey;
-            margin: 30px 0 0 30px;
+        h3 {
+          @extend .mont14B;
+          color: $tutor;
+          width: 10%;
+          padding-top: 20px;
         }
-        .eng {
-            width: 95%;
-            margin: 22px 0 -40px 50px;
-            color: #44ccc0;
+        .progressBar {
+          width: 45%;
+          height: 5px;
+          background-color: #50e3c2;
+          margin: 15px 0 0 20px;
+        }
+        .progressBar2 {
+          width: 45%;
+          height: 5px;
+          background-color: #359ca1;
+          margin-top: 15px;
+        }
+      }
+      .genEd {
+        width: 95%;
+        @extend .mont14R;
+        color: $slateGrey;
+        margin: 30px 0 0 30px;
+      }
+      .eng {
+        width: 95%;
+        margin: 22px 0 -40px 50px;
+        color: #44ccc0;
+        @extend .mont15;
+      }
+      .thinLine {
+        width: 575px;
+        height: 2px;
+        margin: 20px 0 0 52px;
+        background-color: #359ca1;
+      }
+      .engEntry {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        .eng106 {
+          width: 45%;
+          color: $seaBlue;
+          @extend .mont12B;
+          margin-left: 5%;
+          margin-top: 2%;
+          h2 {
             @extend .mont15;
+            color: $slateGrey;
+            margin-top: 2px;
+          }
         }
-        .thinLine {
-            width: 575px;
-            height: 2px;
-            margin: 20px 0 0 52px;
-            background-color: #359ca1;
+        .eng221 {
+          @extend .eng106;
+          width: 45%;
         }
-        .engEntry {
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 5%;
-            .eng106 {
-                width: 45%;
-                color: $seaBlue;
-                @extend .mont12B;
-                margin-left: 5%;
-                margin-top: 2%;
-                h2 {
-                    @extend .mont15;
-                    color: $slateGrey;
-                    margin-top: 2px;
-                }
-            }
-            .eng221 {
-                @extend .eng106;
-                width: 45%;
-            }
-            .eng116 {
-                @extend .eng106;
-                width: 45%;
-            }
-            .eng255 {
-                @extend .eng106;
-                width: 45%;
-            }
-            .eng216 {
-                @extend .eng106;
-                width: 90%;
-            }
+        .eng116 {
+          @extend .eng106;
+          width: 45%;
         }
-        button {
-            height: 42px;
-            width: 114px;
-            background-color: #3bb9ba;
-            color: #ffffff;
-            margin-left: 80%;
+        .eng255 {
+          @extend .eng106;
+          width: 45%;
         }
+        .eng216 {
+          @extend .eng106;
+          width: 90%;
+        }
+      }
+      button {
+        height: 42px;
+        width: 114px;
+        background-color: #3bb9ba;
+        color: #ffffff;
+        margin-left: 80%;
+      }
     }
-}
+    .transparentBackground {
+      width: 110%;
+      height: 1500px;
+      background-color: black;
+      margin-top: -1000px;
+      margin-left: -30px;
+      position: absolute;
+      opacity: .5;
+    }
+    .coursePopUp {
+      width: 35%;
+      height: 253px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -350px;
+      margin-left: 500px;
+      position: absolute;
+    }
+    .courseHelpText {
+      width: 493.9px;
+      height: 18px;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #33c7ba;
+      margin-top: 20px;
+      margin-left: 20px;
+      position: absolute;
+    }
+    .currentProgram {
+      width: 493.9px;
+      height: 18px;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #33c7ba;
+      margin-top: 40px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .csetTitle {
+      width: 376px;
+      height: 42px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.93;
+      letter-spacing: 0.2px;
+      text-align: left;
+      font-weight: bold;
+      color: #202020;
+      margin-top: 60px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .newProgram {
+      width: 105px;
+      height: 15px;
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #48a2ba;
+      margin-top: 100px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .dropDown {
+      width: 60%;
+      height: 30px;
+      position: absolute;
+      background-color: #d8d8d8;
+      border: solid 1px #979797;
+      margin-top: 130px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .submitCourse {
+      width: 30%;
+      height: 50px;
+      background-color: #3bb9ba;
+      top: 175px;
+      left: 25px;
+      position: absolute;
+    }
+    .hide {
+      display: none;
+    }
+    .courseHelpBox {
+      width: 481px;
+      height: 375px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .errorOtherIssue {
+      width: 336px;
+      height: 101px;
+      font-family: Montserrat;
+      font-size: 13px;
+      line-height: 1.62;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 40px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .submitHelpBox {
+      width: 30%;
+      height: 50px;
+      background-color: #3bb9ba;
+      top: 300px;
+      left: 25px;
+      position: absolute;
+    }
+    .courseHelpAnswer {
+      width: 80%;
+      height: 166px;
+      background-color: #ffffff;
+      margin-top: 100px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .changeMajors {
+      width: 481px;
+      height: 244px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .courseSelect {
+      width: 20px;
+      height: 20px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.93;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 75px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .changeMajorText {
+      margin-top: 75px;
+      margin-left: 55px;
+      position: absolute;
+    }
+    .courseSelectSecond {
+      width: 20px;
+      height: 20px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.93;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 115px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .changeMajorTextSecond {
+      margin-top: 115px;
+      margin-left: 55px;
+      position: absolute;
+    }
+    .courseSelectThird {
+      width: 20px;
+      height: 20px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 1.93;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 155px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .changeMajorTextThird {
+      margin-top: 155px;
+      margin-left: 55px;
+      position: absolute;
+    }
+    .nextButton {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-top: 185px;
+      margin-left: 25px;
+      position: absolute;
+    }
+    .changeMajorBoxError {
+      width: 481px;
+      height: 244px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .errorMajor {
+      width: 336px;
+      height: 101px;
+      font-family: Montserrat;
+      font-size: 13px;
+      line-height: 1.62;
+      letter-spacing: 0.2px;
+      text-align: left;
+      color: #202020;
+      margin-top: 50px;
+      margin-left: 20px;
+      position: absolute;
+    }
+    .okayButton {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-left: -120px;
+      margin-top: 75px;
+      position: absolute;
+    }
+    .changeMajorBoxErrorOther {
+      width: 481px;
+      height: 223px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .thanksButton {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-left: -175px;
+      margin-top: 50px;
+      position: absolute;
+    }
+    .logoutMenu {
+      width: 397px;
+      height: 176px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .logOutButton {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-top: 100px;
+      margin-left: 20px;
+      position: absolute;
+    }
+    .neverMind {
+      margin-top: 120px;
+      margin-left: 150px;
+      position: absolute;
+    }
+  }
