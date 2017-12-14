@@ -1628,10 +1628,18 @@ aside li:hover {
   .settings header {
     margin-top: 1.2%; }
     .settings header nav {
-      margin-top: 0.2%;
-      margin-bottom: -1.5%;
-      margin-left: 25%;
+      margin-left: 19%;
+      margin-top: -1.5%;
       position: absolute; }
+      .settings header nav .homeText {
+        margin-left: 195%;
+        margin-top: 65%; }
+      .settings header nav .arrowBar {
+        margin-left: 282%;
+        margin-top: -34%; }
+      .settings header nav .settingsText {
+        margin-left: 310%;
+        margin-top: -38%; }
     .settings header .mont10B, .settings header .courses .viewAs h3, .courses .viewAs .settings header h3, .settings header .courses .viewAs p, .courses .viewAs .settings header p, .settings header .date, .settings header .viewAs, .settings header .grades .gradeScroll .enrolled .whiteBox h4, .grades .gradeScroll .enrolled .whiteBox .settings header h4, .settings header .grades .gradeScroll .flex .lgWhiteBox .startFinish h2, .grades .gradeScroll .flex .lgWhiteBox .startFinish .settings header h2, .settings header .grades .gradeScroll .flex .recentGrades h2, .grades .gradeScroll .flex .recentGrades .settings header h2 {
       margin-left: 90%; }
     .settings header .mont10R, .settings header .activePage, .settings header .notActive, .settings header .calendarView h5, .calendarView .settings header h5, .settings header .calendarView .calendarCourse, .calendarView .settings header .calendarCourse, .settings header .logOut {
