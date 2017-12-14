@@ -1223,6 +1223,13 @@ aside li:hover {
   .viewAs span {
     margin: 0 5% 0 5%; }
 
+header .headerContent {
+  margin-top: 0%;
+  margin-left: 24%;
+  position: absolute; }
+header .dateLogOut {
+  margin-top: 2%; }
+
 .grades {
   background-color: #f7f7f7;
   height: 94%;
@@ -1352,6 +1359,10 @@ aside li:hover {
     background-color: #F5F5F5; }
   .grades .gradeScroll::-webkit-scrollbar-thumb {
     background-color: #38bfba; }
+
+header .headerContent {
+  position: absolute;
+  margin-top: 0.9%; }
 
 .academic {
   background-color: #f7f7f7;
