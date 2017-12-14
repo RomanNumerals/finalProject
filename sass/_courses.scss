@@ -13,13 +13,15 @@
     .programStanding {}
     .currentProgram {
       line-height: 1.5;
-      margin-bottom: 5%;
+      top: 25px;
+      left: 330px;
       h3 {
         @extend .mont12B;
         color: $seaBlue;
       }
     }
     .studentInfo {
+      margin-top: 20px;
       display: inline-flex;
       div {
         padding-right: 60px;
@@ -676,6 +678,28 @@
       background-color: #3bb9ba;
       margin-left: -175px;
       margin-top: 50px;
+      position: absolute;
+    }
+    .logoutMenu {
+      width: 397px;
+      height: 176px;
+      background-color: #f7f7f7;
+      border: solid 1px #979797;
+      margin-top: -400px;
+      margin-left: 400px;
+      position: absolute;
+    }
+    .logOutButton {
+      width: 114px;
+      height: 42px;
+      background-color: #3bb9ba;
+      margin-top: 100px;
+      margin-left: 20px;
+      position: absolute;
+    }
+    .neverMind {
+      margin-top: 120px;
+      margin-left: 150px;
       position: absolute;
     }
   }
