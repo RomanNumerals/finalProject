@@ -1,215 +1,251 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="sass/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
-  <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="sass/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto+Slab" rel="stylesheet">
+    <title></title>
 </head>
+
 <body class="mainContain">
-  <section class="courses">
-    <section class="infoNav">
-      <aside>
-        <img class="selfie" src="pictures/henrietta.jpg"></img>
-        <h1 class="mont15">Henrietta Schmidtt</h1>
-        <h2 class="mont11">ACADEMIC SERVICES</h2>
-        <ul class="mont13">
-          <li><a href="academic.html">Academic Dashboard</a></li>
-          <li><a href="schedule.html">Current Schedule</a></li>
-          <li><a href="grades.html">Grades &amp; Reporting</a></li>
-          <li><a href="courses.html">Upcoming Courses</a></li>
-        </ul>
-        <h2 class="mont11">COLLEGE INFORMATION</h2>
-        <ul class="mont13">
-          <li>College Calendar</li>
-          <li>Financial Aid</li>
-          <li>Student Services</li>
-        </ul>
-      </aside>
+    <section class="courses">
+        <section class="infoNav">
+            <aside>
+                <img class="selfie" src="pictures/henrietta.jpg"></img>
+                <h1 class="mont15">Henrietta Schmidtt</h1>
+                <h2 class="mont11">ACADEMIC SERVICES</h2>
+                <ul class="mont13">
+                    <li><a href="academic.html">Academic Dashboard</a></li>
+                    <li><a href="schedule.html">Current Schedule</a></li>
+                    <li><a href="grades.html">Grades &amp; Reporting</a></li>
+                    <li><a href="courses.html">Upcoming Courses</a></li>
+                </ul>
+                <h2 class="mont11">COLLEGE INFORMATION</h2>
+                <ul class="mont13">
+                    <li>College Calendar</li>
+                    <li>Financial Aid</li>
+                    <li>Student Services</li>
+                </ul>
+            </aside>
+        </section>
+        <header>
+            <nav>
+                <a class="notActive" href="home.html">Home</a>
+                <a class="notActive" href="academic.html">Academic Dashboard</a>
+                <a class="activePage" href="courses.html">Upcoming Courses</a>
+            </nav>
+            <div>
+                <p class="mont10B">DATE</p>
+                <p class="mont10R">LOG OUT</p>
+            </div>
+        </header>
+        <div class="blueDivider"></div>
+        <!--This section below is divided so as to begin flexbox and is fixed in position-->
+        <section class="mainSection">
+            <div class="currentProgram">
+                <h3>CURRENT PROGRAM:</h3>
+                <p class="mont15">Computer Software Engineering Technology</p>
+            </div>
+            <div class="programStanding">
+                <div class="studentInfo">
+                    <div>
+                        <h3>CURRENT SEMESTER:</h3>
+                        <p>Fall 2017</p>
+                    </div>
+                    <div>
+                        <h3>ENROLLED CREDIT HOURS:</h3>
+                        <p>15</p>
+                    </div>
+                    <div>
+                        <h3>ACADEMIC STANDING:</h3>
+                        <p>Good</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="blueDivider"></div>
+        <div class="uc">
+            <h3>UPCOMING COURSES:</h3>
+        </div>
+        <div class="viewAs">
+            <h3>Semester:</h3>
+            <p>Spring 2018</p>
+        </div>
+        <!--This div below will tackle the white box with the start button in it-->
+        <div class="courseBox">
+            <h2>YOU CURRENTLY HAVE NO REGISTERED COURSES.</h2>
+            <h3>Register for Spring courses.</h3>
+            <button>Start</button>
+        </div>
+        <!--the content below will contain a lot of divs for flexbox-->
+        <div class="registration">
+            <div class="course">
+                <h2>Course Registration Completion:</h2>
+                <h3>50%</h3>
+            </div>
+            <div class="bars">
+                <div class="progressBar"></div>
+                <div class="progressBar2"></div>
+            </div>
+            <div class="core">
+                <h4>Core Program Courses:</h4>
+            </div>
+            <div class="majorsOne">
+                <div>
+                    <form>
+                        <input type="checkbox" value="cset155"> CSET 155
+                    </form>
+                    <h2>Database Design</h2>
+                </div>
+                <div>
+                    <form>
+                        <input type="checkbox" value="cset170"> CSET 170
+                    </form>
+                    <h2>Security &amp; Professional Ethics</h2>
+                </div>
+            </div>
+            <div class="cset160">
+                <form>
+                    <input type="checkbox" value="cset160"> CSET 160
+                </form>
+                <h2>Web Development II</h2>
+            </div>
+            <div class="cset180">
+                <form>
+                    <input type="checkbox" value="cset180"> CSET 180
+                </form>
+                <h2>Software Project II</h2>
+            </div>
+            <div class="help">
+                <div>
+                    <h2>GET HELP &raquo;</h2>
+                </div>
+                <button>NEXT &raquo;</button>
+            </div>
+        </div>
+        <!--Below contains the beginning of the gen ed drop down-->
+        <div class="courseSelection">
+            <div class="course">
+                <h2>Course Registration Completion:</h2>
+                <h3>60%</h3>
+            </div>
+            <div class="bars">
+                <div class="progressBar"></div>
+                <div class="progressBar2"></div>
+            </div>
+            <div class="genEd">
+                <h2>General Education</h2>
+            </div>
+            <!--items below will be flexed further with bottom borders-->
+            <div class="genEdNames">
+                <div class="cis">
+                    <h2>Computer Information Systems</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="english">
+                    <h2>English</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="history">
+                    <h2>History</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="math">
+                    <h2>Mathematics</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="pe">
+                    <h2>Physical Education &amp; Health</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="science">
+                    <h2>Science</h2>
+                    <p>&#62;</p>
+                </div>
+                <div class="ss">
+                    <h2>Social Sciences</h2>
+                    <p>&#62;</p>
+                </div>
+            </div>
+        </div>
+        <div class="cisSelection">
+            <div class="course">
+                <h2>Course Registration Completion:</h2>
+                <h3>60%</h3>
+                <div class="progressBar"></div>
+                <div class="progressBar2"></div>
+            </div>
+            <div class="genEd">
+                <h2>General Education</h2>
+            </div>
+            <div class="cis">
+                <h2>Computer Information Systems</h2>
+            </div>
+            <div class="thinLine"></div>
+            <div class="entry">
+                <form>
+                    <input type="radio" value="cis105"> CIS 105
+                    <h2>Drawing with AutoCAD</h2>
+                    <input type="radio" value="cis111"> CIS 111
+                    <h2>Introduction to Computer Applications</h2>
+                    <input type="radio" value="cis211"> CIS 211
+                    <h2>Microsoft Excel</h2>
+                </form>
+            </div>
+            <button>Register &raquo;</button>
+        </div>
+        <div class="engSelection">
+            <div class="course">
+                <h2>Course Registration Completion:</h2>
+                <h3>60%</h3>
+                <div class="progressBar"></div>
+                <div class="progressBar2"></div>
+            </div>
+            <div class="genEd">
+                <h2>General Education</h2>
+            </div>
+            <div class="eng">
+                <h2>English</h2>
+            </div>
+            <div class="thinLine"></div>
+            <div class="engEntry">
+                <div class="eng106">
+                    <form>
+                        <input type="radio" value="eng106"> ENG 106
+                        <h2>English Composition</h2>
+                    </form>
+                </div>
+                <div class="eng221">
+                    <form>
+                        <input type="radio" value="eng221"> ENG 221
+                        <h2>Public Speaking</h2>
+                    </form>
+                </div>
+                <div class="eng116">
+                    <form>
+                        <input type="radio" value="eng116"> ENG 116
+                        <h2>Short Story and Poetry</h2>
+                    </form>
+                </div>
+                <div class="eng255">
+                    <form>
+                        <input type="radio" value="eng255"> ENG 255
+                        <h2>Short Contemporary Novel</h2>
+                    </form>
+                </div>
+                <div class="eng216">
+                    <form>
+                        <input type="radio" value="eng216"> ENG 216
+                        <h2>Technical Support Writting</h2>
+                    </form>
+                </div>
+            </div>
+            <button>Register &raquo;</button>
+        </div>
     </section>
-    <header>
-      <nav>
-        <a class="notActive" href="home.html">Home</a>
-        <a class="notActive" href="academic.html">Academic Dashboard</a>
-        <a class="activePage" href="courses.html">Upcoming Courses</a>
-      </nav>
-      <div>
-        <p class="mont10B">DATE</p>
-        <p class="mont10R">LOG OUT</p>
-      </div>
-    </header>
-    <div class="blueDivider"></div>
-    <!--This section below is divided so as to begin flexbox and is fixed in position-->
-    <section class="mainSection">
-      <div class="currentProgram">
-        <h3>CURRENT PROGRAM:</h3>
-        <p class="mont15">Computer Software Engineering Technology</p>
-      </div>
-      <div class="programStanding">
-        <div class="studentInfo">
-          <div>
-            <h3>CURRENT SEMESTER:</h3>
-            <p>Fall 2017</p>
-          </div>
-          <div>
-            <h3>ENROLLED CREDIT HOURS:</h3>
-            <p>15</p>
-          </div>
-          <div>
-            <h3>ACADEMIC STANDING:</h3>
-            <p>Good</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="blueDivider"></div>
-    <div class="uc">
-      <h3>UPCOMING COURSES:</h3>
-    </div>
-    <div class="viewAs">
-      <h3>Semester:</h3>
-      <p>Spring 2018</p>
-    </div>
-    <!--This div below will tackle the white box with the start button in it-->
-    <div class="courseBox">
-      <h2>YOU CURRENTLY HAVE NO REGISTERED COURSES.</h2>
-      <h3>Register for Spring courses.</h3>
-      <button>Start</button>
-    </div>
-    <!--the content below will contain a lot of divs for flexbox-->
-    <div class="registration">
-      <div class="course">
-        <h2>Course Registration Completion:</h2>
-        <h3>50%</h3>
-      </div>
-      <div class="bars">
-        <div class="progressBar"></div>
-        <div class="progressBar2"></div>
-      </div>
-      <div class="core">
-        <h4>Core Program Courses:</h4>
-      </div>
-      <div class="majorsOne">
-        <div>
-          <form>
-            <input type="checkbox" value="cset155"> CSET 155
-          </form>
-          <h2>Database Design</h2>
-        </div>
-        <div>
-          <form>
-            <input type="checkbox" value="cset170"> CSET 170
-          </form>
-          <h2>Security &amp; Professional Ethics</h2>
-        </div>
-      </div>
-      <div class="cset160">
-        <form>
-          <input type="checkbox" value="cset160"> CSET 160
-        </form>
-        <h2>Web Development II</h2>
-      </div>
-      <div class="cset180">
-        <form>
-          <input type="checkbox" value="cset180"> CSET 180
-        </form>
-        <h2>Software Project II</h2>
-      </div>
-      <div class="help">
-        <div>
-          <h2>GET HELP &raquo;</h2>
-        </div>
-        <button>NEXT &raquo;</button>
-      </div>
-    </div>
-    <!--Below contains the beginning of the gen ed drop down-->
-    <div class="courseSelection">
-      <div class="course">
-        <h2>Course Registration Completion:</h2>
-        <h3>60%</h3>
-      </div>
-      <div class="bars">
-        <div class="progressBar"></div>
-        <div class="progressBar2"></div>
-      </div>
-      <div class="genEd">
-        <h2>General Education</h2>
-      </div>
-      <!--items below will be flexed further with bottom borders-->
-      <div class="genEdNames">
-        <div class="cis">
-          <h2>Computer Information Systems</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="english">
-          <h2>English</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="history">
-          <h2>History</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="math">
-          <h2>Mathematics</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="pe">
-          <h2>Physical Education &amp; Health</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="science">
-          <h2>Science</h2>
-          <p>&#62;</p>
-        </div>
-        <div class="ss">
-          <h2>Social Sciences</h2>
-          <p>&#62;</p>
-        </div>
-      </div>
-    </div>
-    <div class="cisSelection">
-      <div class="course">
-        <h2>Course Registration Completion:</h2>
-        <h3>60%</h3>
-        <div class="progressBar"></div>
-        <div class="progressBar2"></div>
-      </div>
-      <div class="genEd">
-        <h2>General Education</h2>
-      </div>
-      <div class="cis">
-        <h2>Computer Information Systems</h2>
-      </div>
-      <div class="thinLine"></div>
-      <div class="entry">
-        <form>
-          <input type="radio" value="cis105"> CIS 105
-          <h2>Drawing with AutoCAD</h2>
-          <input type="radio" value="cis111"> CIS 111
-          <h2>Introduction to Computer Applications</h2>
-          <input type="radio" vale="cis211"> CIS 211
-          <h2>Microsoft Excel</h2>
-        </form>
-      </div>
-      <button>Register &raquo;</button>
-    </div>
-    <div class="engSelection">
-      <div class="course">
-        <h2>Course Registration Completion:</h2>
-        <h3>60%</h3>
-        <div class="progressBar"></div>
-        <div class="progressBar2"></div>
-      </div>
-      <div class="genEd">
-        <h2>General Education</h2>
-      </div>
-      <div class="eng">
-        <h2>English</h2>
-      </div>
-      <div class="thinLine"></div>
-    </div>
-  </section>
 </body>
+
 </html>
